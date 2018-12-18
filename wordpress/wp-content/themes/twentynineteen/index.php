@@ -12,6 +12,7 @@
  * @package WordPress
  * @subpackage Twenty_Nineteen
  * @since 1.0.0
+ *ドリーム第一歩
  */
 
 get_header();
@@ -39,7 +40,7 @@ get_header();
 
 		}
 		?>
-		
+
 		</main><!-- .site-main -->
 	</section><!-- .content-area -->
 
