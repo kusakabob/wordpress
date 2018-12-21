@@ -6,12 +6,43 @@ Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
     bloginfo('html_type');?>;
 	charset=<?php bloginfo('charset'); ?>" />
 
-	<title><?php bloginfo('name'); ?></title>
+    <title><?php bloginfo('name'); ?></title>
+    <link rel="alternate" type="application/rss+xml"
+    title="RSS FEED" href="<?php bloginfo('rss2_url'); ?>"/>
+
+    <link rel="stylesheet" type="text/css"
+    href="<?php bloginfo('stylesheet_url'); ?>" />
 	</head>
 	<body>
     <!-- header -->
     <div id="header">
-		<h1><?php bloginfo('name'); ?></h1>
+    <div id="header-inner">
+
+    <div id="header-top">
+    <div class = "fLeft">
+		<h1><a href="<?php echo home_url('/'); ?>"><img src="<?php bloginfo('template_url'); ?>/images/blockbase_logo_2_.png"
+        width="50" height="50" alt="<?php bloginfo('name'); ?>" /></a></h1>
         <p><?php bloginfo('description'); ?></p>
+    </div>
+
+    <div class = "fRight">
+        <ul>
+            <li><a href="<?php bloginfo('url'); ?>/sitemap/"
+            class="sitemap">サイトマップ</a></li>
+            <li><a href="<?php bloginfo('rss2_url'); ?>"
+            class="rss">RSS FEED</li>
+        </ul>
+    </div>
+    </div>
+
+    <div id="header-nav">
+    <?php wp_nav_menu(array('theme_location' => 'nav')); ?>
+</div>
+
+    <div id = "header-gra">
+    <img src="<?php bloginfo('template_url'); ?>/images/b2_room.png" width=100% height="300" alt="" />
+</div>
+
+    </div>
     </div>
     <!-- /header -->

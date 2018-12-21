@@ -5,3 +5,166 @@ Theme Name: xxxCompany
 Theme URI : http://site/wordpress/
 Description: xxxCOMPANY official theme
 */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,
+input,p,blockquote,th,td {
+    margin:0;
+    padding: top;
+}
+
+img {
+    border:0;
+    vertical-align:top;
+}
+
+body {
+    /* background: url(images/bg_body.png) repeat 0 0; */
+    font-size: 62.5%;
+    font-family: "メイリオ",Meiryo,Osaka,"ヒラギノ角ゴ Pro W3",
+    "Hiragino Kaku Gothic PPro","MS Pゴシック", "MSPGothic",sans-serif;
+}
+
+
+a{
+    color: #429ad2;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul,ol {
+    list-style :none;
+}
+
+div {
+    /* border:1px solid black; */
+}
+
+.fLeft{
+    float:left;
+}
+
+.fRight{
+    float:right;
+}
+
+#header {
+    width: 100%;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #878787;
+    /* background: #efeeeb url(images/bg_header.png) repeat-x left top); */
+}
+
+#header-inner{
+    width: 700px;
+    margin: 0 auto;
+}
+
+#header-top{
+    height: 120px;
+    clear:both;
+    font-size:1.1em;
+}
+
+#header-top h1{
+    padding-top:18px;
+}
+
+#header-top p{
+    padding-top:3px;
+    color: #797979;
+} 
+
+#header-top ul {
+    text-align: left;
+}
+
+#header-top ul li {
+    display: inline;
+}
+
+#header-top ul li a{
+    padding: 3px 5px 2px;
+    text-decoration: none;
+}
+
+#header-top ul a:hover{
+    text-decoration: underline;
+}
+
+#header-top ul a.sitemap {
+    padding-left:18px;
+}
+
+#header-top ul a.rss{
+    padding-left:23px;
+}
+
+/* nav */
+#header-nav{
+    /* clear:both; */
+}
+
+#header-nav ul#menu-nav{
+    height:46px;
+}
+
+#header-nav ul li.menu-item a{
+    display:float;
+    width:160px;
+    height:46px;
+    line-height:46px;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.4em;
+    text-decoration: none;
+    text-align: center;
+}
+
+#header-nav ul li.menu-item a:hover{
+        text-decoration:underline;
+}
+
+#container {
+    width: 960px;
+    margin:0 auto;
+    padding-top:10px;
+}
+
+#contents {
+    float:left;
+    width:670px;
+    height: 300px;
+    margin-bottom:15px;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+#sidebar{
+    float:right;
+    width:275px;
+    margin-bottom:15px;
+}
+
+#sidebar #bnr li{
+    margin-bottom: 5px;
+}
+
+
+#footer {
+    clear: both;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-top: 1px solid #aaa;
+    background: #000;
+}
+
+#footer p{
+    width:960px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: right;
+}
+
