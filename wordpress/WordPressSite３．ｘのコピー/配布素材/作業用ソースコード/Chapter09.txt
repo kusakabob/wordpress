@@ -1,0 +1,598 @@
+■Chapter09　コピー＆ペースト用ソースコード
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P229　LESSON001－STEP1［1-1］　404.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php get_header(); ?>
+<!--container -->
+<div id="container">
+<!--contents -->
+<div id="contents">
+
+</div>
+<!--/contents -->
+<!--sidebar -->
+<?php get_sidebar(); ?>
+<!--/sidebar -->
+</div>
+<!--/container -->
+<?php get_footer(); ?>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P230　LESSON001－STEP1［2-1］　404.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<div class="box">
+<img src="<?php bloginfo('template_url'); ?>/images/not_found.gif" width="640" height="300" alt="404 NOT FOUND">
+<p>お探しのページは見つかりませんでした。</p>
+<p><a href="<?php bloginfo('url'); ?>">トップページへ戻る</a></p>
+</div>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P230　LESSON001－STEP1［3-1］　header.php（変更行のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php if(is_home()||is_404()): ?>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P231　LESSON001－STEP2［1-1］　searchform.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<form method="get" action="<?php echo home_url( '/' ); ?>" class="search-form">
+<input type="text" name="s" id="s" value="<?php the_search_query(); ?>" /><input type="image" src="<?php bloginfo('template_url'); ?>/images/btn_serch.gif"  alt="検索ボタン" />
+</form>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P231　LESSON001－STEP2［2-1］　header.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<div class="fRight">
+<ul>
+<li><a href="<?php bloginfo('url'); ?>/sitemap/" class="sitemap">サイトマップ</a></li><li><a href="<?php bloginfo('rss2_url'); ?>" class="rss">RSS FEED</a></li>
+</ul>
+<?php get_search_form(); ?>
+</div>
+</div>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P231　LESSON001－STEP2［2-3］　style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+/*search*/
+.search-form{ 
+	padding-top: 15px; 
+	
+}
+.search-form input{ 
+	vertical-align: middle;
+}
+.search-form #s{
+	width: 150px;
+	height: 18px;
+	line-height:18px;
+	padding: 2px;
+	background: #c7c7c7;
+	border:1px solid #c7c7c7;
+	font-size: 1.1em;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P232　LESSON001－STEP2［4-1］　search.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php get_header(); ?>
+<!--container -->
+<div id="container">
+<!--contents -->
+<div id="contents">
+<!-- search -->
+<div class="box">
+<div class="section-header">
+<h2><img src="<?php bloginfo('template_url'); ?>/images/ttl_search.gif" width="185" height="23" alt="SEARCH" /></h2>
+</div>
+<?php if(have_posts()): ?>
+<h3>検索結果：「<?php the_search_query(); ?>」</h3>
+<ul>
+<?php while(have_posts()): the_post(); ?>
+<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a><span>[<?php the_time('Y/m/d'); ?>]</span></li>
+<?php endwhile; ?>
+</ul>
+<?php else: ?>
+<h3>「<span><?php the_search_query(); ?></span>」 の検索結果が見つかりませんでした。</h3>
+<p>別のキーワードでお試しください。</p>
+<?php get_search_form(); ?>
+<?php endif;?>
+</div>
+<!-- /search -->
+<?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); } ?> 
+</div>
+<!--/contents -->
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P233　LESSON001－STEP2［6-1］　header.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<body <?php body_class(); ?>>
+<!--header -->
+<div id="header">
+<div id="header-inner">
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P233　LESSON001－STEP2［7-1］　style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+.search-results .box h3 {
+	margin: 20px;
+	padding: 5px;
+	background: #39F;
+	color: #fff;
+	font-weight: bold;
+}
+.search-results .box ul {
+	margin:0 30px 20px;
+}
+.search-results .box ul li {
+	margin-top: 8px;
+	padding-left: 12px;
+	background: url(images/icon_arr_black2.gif) no-repeat left center;
+}
+.search-results .box ul li span {
+	padding-left: 10px;
+	color: #999;
+	font-size: 0.8em;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P234　LESSON001－STEP2［9-1］　style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+.search-no-results .box h3{
+	margin: 100px 30px 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #CCC;
+	font-size: 2.0em;
+	text-align: center;
+}
+.search-no-results .box h3 span {
+	color: #ff2160;
+}
+
+.search-no-results .box p{
+	margin: 0 30px;
+}
+.search-no-results .box form {
+	margin: 0 30px 100px;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P235　LESSON001－STEP2［11-1］　header.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php elseif( is_search() ): ?>
+<img src="<?php bloginfo('template_url'); ?>/images/gra_search.jpg" width="960" height="70" alt="" />
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P236　LESSON001－STEP3［2-1］　functions.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//jQueryを使用する
+function new_scripts() {
+	wp_enqueue_script('jquery');
+}
+add_action('wp_enqueue_scripts', 'new_scripts');
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P236　LESSON001－STEP3［3-1］　base.js
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+jQuery(document).ready(function($) {
+
+	$( '#menu-nav>li' ).find( 'ul' ).hide();
+	$( '#menu-nav>li' ).hover(function(){
+		$( 'ul:not(:animated)', this).slideDown( 400 );
+	},
+	function(){
+		$( 'ul', this ).hide();
+	});
+	
+});
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P237　LESSON001－STEP3［4-1］　functions.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//jQueryを使用する
+function new_scripts() {
+	wp_enqueue_script('jquery');
+	
+	wp_enqueue_script(
+		'base',
+		get_template_directory_uri() . '/base.js',
+		array('jquery')
+	);
+}
+add_action('wp_enqueue_scripts', 'new_scripts');
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P237　LESSON001－STEP4［1-1］　functions.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//カスタムヘッダー機能を有効化
+define( 'NO_HEADER_TEXT', true );
+define('HEADER_IMAGE', '%s/images/gra_main.jpg');
+define('HEADER_IMAGE_WIDTH', 960); 
+define('HEADER_IMAGE_HEIGHT', 300);
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P238　LESSON001－STEP4［2-1］　functions.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+add_custom_image_header('','admin_header_style');
+function admin_header_style() {
+?><style type="text/css">
+	#headimg {
+		width: <?php echo HEADER_IMAGE_WIDTH; ?>px;
+		height: <?php echo HEADER_IMAGE_HEIGHT; ?>px;
+	}
+</style><?php
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P238　LESSON001－STEP4［3-1］　functions.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//デフォルト画像
+register_default_headers( array(
+	'header_evening' => array(
+		'url' => '%s/images/gra_main2.jpg',
+		'thumbnail_url' => '%s/images/gra_main2_thum.jpg'
+	),
+	'header_night' => array(
+		'url' => '%s/images/gra_main3.jpg',
+		'thumbnail_url' => '%s/images/gra_main3_thum.jpg'
+	)
+));
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P240　LESSON001－STEP4［10-1］　header.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<div id="header-gra">
+<?php if(is_home()||is_404()): ?>
+<img src="<?php header_image(); ?>" alt="" width="<?php echo HEADER_IMAGE_WIDTH; ?>" height="<?php echo HEADER_IMAGE_HEIGHT; ?>" />
+<?php elseif( is_search() ): ?>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P243　LESSON001－STEP5［7-1］　index.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php
+$pickup = array(
+	'category_name=news' => 'news',
+	'posts_per_page' => 2,
+	'post__in'  => get_option( 'sticky_posts' ),
+	'ignore_sticky_posts' => 1
+);
+query_posts( $pickup );
+?>
+<?php if(have_posts()): while(have_posts()): the_post(); ?>
+
+
+<?php endwhile; endif; wp_reset_query(); ?>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P243　LESSON001－STEP5［8-1］　index.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<div class="box pick-up">
+
+</div>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P244　LESSON001－STEP5［9-1］　index.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php
+$cats = get_the_category();
+$cats = $cats[0];
+?>
+<h2 class="pick-<?php echo $cats->category_nicename;?>">
+<img src="<?php bloginfo('template_url'); ?>/images/ttl_pick_news.gif" width="165" height="23" alt="PICK UP NEWS" /></h2>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P244　LESSON001－STEP5［10-1］　index.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php if ( has_post_thumbnail() ): ?>
+<?php the_post_thumbnail(); ?>
+<?php else: ?>
+<img src="<?php bloginfo('template_url') ?>/images/pickup.gif" alt="PICK UP"/>
+<?php endif; ?>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P244　LESSON001－STEP5［11-1］　index.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<div class="pick-inner">
+<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+<span><?php the_time('Y/m/d'); ?></span>
+<?php the_excerpt(); ?>
+</div>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P245　LESSON001－STEP5［13-1］　style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+/*pick-up*/
+.pick-up {
+	float: left;
+	width: 302px;
+}
+.pick-up:first-child {
+	margin-right: 10px;
+}
+.pick-up h2 {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #c5c5c5;
+}
+.pick-up h2.pick-info {
+	background: url(images/icon_info.gif) no-repeat right 8px;
+}
+.pick-up h2.pick-seminar {
+	background: url(images/icon_semi.gif) no-repeat right 8px;
+}
+.pick-up h2 img{
+	float: none !important;
+}
+.pick-up img{
+	float: left;
+	margin-right: 15px;
+}
+.pick-up .pick-inner {
+	padding-left: 125px;
+}
+.pick-up .pick-inner span {
+	display: block;
+	padding-bottom: 5px;
+	color: #999;
+	text-align: right;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P246　LESSON001－STEP5［15-1］　base.js（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//ボックスの高さを揃える
+	var maxH = 0;
+	$('.pick-up').each(function(){
+		maxH = Math.max( maxH, $(this).height() );
+	}).height( maxH );
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P247　LESSON001－STEP6［1-1］　functions.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//ウィジェット
+register_sidebar(array(
+	'before_widget' => '<div class="free-space">',
+	'after_widget' => '</div>',
+	'before_title'  => '<h2>',
+	'after_title'   => '</h2>',
+	'name'=>'サイトからのお知らせ'
+));
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P248　LESSON001－STEP6［4-1］　sidebar.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<!--sidebar -->
+<div id="sidebar">
+
+<?php dynamic_sidebar( 2 ); ?>
+
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P248　LESSON001－STEP6［5-1］　sidebar.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<!--sidebar -->
+<div id="sidebar">
+
+<?php if( is_active_sidebar( 2 ) ): ?>
+<?php dynamic_sidebar( 2 ); ?>
+<?php endif; ?>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P249　LESSON001－STEP6［7-1］　style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+#sidebar .free-space {
+	margin-bottom: 10px;
+	border: 1px solid #b1b1b1;
+	background-color: #fff;
+}
+#sidebar .free-space h2 {
+	padding: 6px 10px;
+	background: url(images/bg_side_ttl_info.gif) no-repeat left bottom;
+	color: #fff;
+	font-size: 1.2em;
+}
+#sidebar .free-space .textwidget {
+	padding: 10px;
+	font-size: 1.2em;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P253　LESSON001－STEP8［1-1］　functions.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//投稿フォーマット
+add_theme_support( 'post-formats', array( 'gallery' ) );
+
+
+
+※投稿フォーマットを複数指定する
+//投稿フォーマット
+add_theme_support( 'post-formats', array( 'gallery', 'image', 'status' ) );
+
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P254　LESSON001－STEP8［2-1］　「お知らせ」投稿画面
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+タイトル	xxxCOMPANY セミナー風景
+パーマリンク	infogallery
+抜粋	先月末に開催しましたxxxCOMPANY セミナーの風景をアップしました。
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P257　LESSON001－STEP8［11-1］　index.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php query_posts( 'category_name=news&posts_per_page=8' ); ?>
+<?php if(have_posts()): ?>
+<dl>
+<?php while(have_posts()): the_post(); ?>
+<dt><?php the_time('Y/m/d'); ?></dt>
+<?php
+$cats = get_the_category();
+$cats = $cats[0];
+?>
+<dd class="<?php echo $cats->category_nicename;?>">
+<a href="<?php the_permalink(); ?>" <?php if ( has_post_format( 'gallery' )) echo 'class="photo"' ?> ><?php the_title(); ?></a><?php the_excerpt(); ?></dd>
+<?php endwhile; ?>
+</dl>
+<?php endif; wp_reset_query(); ?>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P257　LESSON001－STEP8［12-1］　style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+#news dd a.photo {
+	padding-right: 28px;
+	background: url(images/icon_camera.gif) no-repeat right center;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P258　LESSON001－STEP8［13-1］　category.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<!--news -->
+<div id="news" class="box">
+<div class="section-header">
+<h2><img src="<?php bloginfo('template_url'); ?>/images/ttl_news.gif" width="80" height="23" alt="NEWS" /></h2>
+</div>
+<?php if(have_posts()): ?>
+<dl>
+<?php while(have_posts()): the_post(); ?>
+<dt><?php the_time('Y/m/d'); ?></dt>
+<?php
+$cats = get_the_category();
+$cats = $cats[0];
+?>
+<dd class="<?php echo $cats->category_nicename;?>">
+<a href="<?php the_permalink(); ?>" <?php if ( has_post_format( 'gallery' )) echo 'class="photo"' ?> ><?php the_title(); ?></a><?php the_excerpt(); ?></dd>
+<?php endwhile; ?>
+</dl>
+<?php  endif; ?>
+</div>
+<!--/news -->
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P259　LESSON001－STEP8［15-1］　functions.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//ギャラリーのスタイルを削除
+function remove_gallery_style() {
+  return "<div class='gallery'>";
+}
+add_filter('gallery_style', 'remove_gallery_style');
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P260　LESSON001－STEP8［16-1］　style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+/*gallery*/
+#news .gallery {
+	padding: 0 7px;
+	margin-left: -20px;
+}
+#news dl.gallery-item {
+	float: left;
+	width: 284px;
+	margin-top: 10px;
+	margin-left: 20px;
+	padding: 0;	
+}
+#news dt.gallery-icon {
+	float: none;
+	width: 284px;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P260　LESSON001－STEP8［17-1］　style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+#news dt.gallery-icon a img {
+	border: 2px solid #eee;
+}
+#news dt.gallery-icon a:hover img {
+	border: 2px solid #3ba8ff;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P261　LESSON001－STEP8［18-1］　style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+#news dd.gallery-caption {
+	float: none;
+	width: 284px;
+	padding: 6px 0 3px;
+	border-bottom: 1px dotted #999;
+	text-align: left;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P270　LESSON002－STEP2［7-1］　header.php（変更行のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+

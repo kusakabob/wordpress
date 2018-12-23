@@ -1,0 +1,313 @@
+■Chapter07　コピー＆ペースト用ソースコード
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P173　LESSON001－STEP1［4-1］　style.css（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+table{
+	width: 100%;
+	margin-top: 12px;
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+	border-spacing: 0;
+	line-height: 1.5;
+}
+th{
+	width: 20%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	background: #55aeff;
+	color: #fff;
+	font-weight: bold;
+	text-align: left;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+td{
+	width: 80%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	vertical-align: middle;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P173　LESSON001－STEP1［5-1］　editor-style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+table{
+	font-size: 1.2em;
+	width: 100%;
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+	border-spacing: 0;
+	line-height: 1.5;
+}
+th{
+	width: 20%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	background: #439aea;
+	color: #fff;
+	font-weight: bold;
+	text-align: left;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+td{
+	width: 80%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	vertical-align: middle;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P176　LESSON001－STEP3［1-1］　page-comapny.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<!-- comapny -->
+<div id="company" class="box">
+<div class="section-header">
+<h2><img src="<?php bloginfo('template_url'); ?>/images/ttl_company.gif" width="115" height="23" alt="COMPANY" /></h2>
+</div>
+</div>
+<!-- /comapny -->
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P177　LESSON001－STEP3［3-1］　page-comapny.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<div class="box-inner">
+<?php if(have_posts()): while(have_posts()): the_post(); ?>
+<h3 ><?php the_title(); ?></h3>
+<?php the_content(); ?>
+<?php endwhile; endif; ?>
+</div>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P178　LESSON001－STEP3［4-1］　header.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<div id="header-gra">
+<?php if(is_home()): ?>
+<img src="<?php bloginfo('template_url'); ?>/images/gra_main.jpg" width="960" height="300" alt="" />
+<?php elseif(is_category( array('products','products_a','products_b','products_c','products_d') )||in_category( array('products','products_a','products_b','products_c','products_d') ) ): ?>
+<img src="<?php bloginfo('template_url'); ?>/images/gra_products.jpg" width="960" height="70" alt="" />
+<?php elseif(is_page( array('company','access') ) ): ?>
+<img src="<?php bloginfo('template_url'); ?>/images/gra_company.jpg" width="960" height="70" alt="" />
+<?php else: ?>
+<img src="<?php bloginfo('template_url'); ?>/images/gra_news.jpg" width="960" height="70" alt="" />
+<?php endif; ?>
+</div>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P180　LESSON002－STEP1［2-1］　campany.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php
+/*
+Template Name: Company
+*/
+?>
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P181　LESSON002－STEP2［3-1］　固定ページ「アクセス」の投稿画面内
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+[map]
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P182　LESSON002－STEP2［5-1］　固定ページ「アクセス」の投稿画面内
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+[map id="map" lat="35.691053" lon="139.740835" z="18" w="600" h="320" marker="yes"]
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P183　LESSON002－STEP2［7-1］　style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+/*map*/
+#map {
+	margin-top: 20px !important;
+	border: 1px solid #999;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P185　LESSON003－STEP1［1-1］　page-contact.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php get_header(); ?>
+<!--container -->
+<div id="container">
+<!--contents -->
+<div id="contents">
+<!-- contact -->
+<div id="contact" class="box">
+<div class="section-header">
+<h2><img src="<?php bloginfo('template_url'); ?>/images/ttl_contact.gif" width="130" height="23" alt="CONTACT" /></h2>
+</div>
+<div class="box-inner">
+<?php if(have_posts()): while(have_posts()): the_post(); ?>
+<h3 ><?php the_title(); ?></h3>
+<?php the_content(); ?>
+<?php endwhile; endif; ?>
+</div>
+</div>
+<!-- /contact -->
+</div>
+<!--/contents -->
+<!--sidebar -->
+<?php get_sidebar(); ?>
+<!--/sidebar -->
+</div>
+<!--/container -->
+<?php get_footer(); ?>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P188　LESSON003－STEP2［1-1］　Contact Form 7設定画面
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<table summary="お問い合わせ">
+  <tr>
+    <th>お名前 (必須）</th>
+    <td>[text* your-name]</td>
+  </tr>
+  <tr>
+    <th>メールアドレス (必須）</th>
+    <td>[email* your-email]</td>
+  </tr>
+  <tr>
+    <th>題名</th>
+    <td>[text your-subject] </td>
+  </tr>
+  <tr>
+    <th>メッセージ本文</th>
+    <td>[textarea your-message] </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">[submit "送信"]</td>
+  </tr>
+</table>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P195　LESSON003－STEP3［1-1］　header.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php elseif(is_page( 'contact' ) ): ?>
+<img src="<?php bloginfo('template_url'); ?>/images/gra_contact.jpg" width="960" height="70" alt="" />
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P196　LESSON003－STEP3［2-1］　style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+/*お問い合わせ*/
+.wpcf7-form input,
+.wpcf7-form textarea {
+	font-size: 1em;
+}
+.wpcf7-form .wpcf7-submit {
+	width: 150px;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P198　LESSON004－STEP1［1-1］　functions.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//サイトナビゲーション用
+register_nav_menus(array('nav' => 'ナビゲーション', 'sitemap' => 'サイトマップ'));
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P200　LESSON004－STEP2［1-1］　page-sitemap.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php get_header(); ?>
+<!--container -->
+<div id="container">
+<!--contents -->
+<div id="contents">
+
+<!-- sitemap -->
+<div id="sitemap" class="box">
+<div class="section-header">
+<h2><img src="<?php bloginfo('template_url'); ?>/images/ttl_sitemap.gif" width="105" height="23" alt="SITEMAP" /></h2>
+</div>
+<div class="sitemap-inner">
+<h3>サイトマップ</h3>
+<?php wp_nav_menu(array('theme_location' => 'sitemap')); ?>
+</div>
+</div>
+<!-- /sitemap -->
+</div>
+<!--/contents -->
+<!--sidebar -->
+<?php get_sidebar(); ?>
+<!--/sidebar -->
+</div>
+<!--/container -->
+<?php get_footer(); ?>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P201　LESSON004－STEP3［1-1］　header.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php elseif(is_page( 'sitemap' ) ): ?>
+<img src="<?php bloginfo('template_url'); ?>/images/gra_sitemap.jpg" width="960" height="70" alt="" />
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P202　LESSON004－STEP2［2-1］　style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+/*サイトマップ*/
+.sitemap-inner {
+	padding: 20px 30px;
+}
+.sitemap-inner h3 {
+	padding-left: 30px;
+	padding-bottom: 10px;
+	border-bottom: 1px dotted #ccc;
+	background: url(images/icon_h3.gif) no-repeat left 2px;
+	font-size: 1.3em;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P202　LESSON004－STEP2［3-1］　style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+.sitemap-inner .menu {
+	padding: 10px 20px 0;
+	line-height: 1.8;
+}
+
+.sitemap-inner .menu li {
+	margin-top: 15px;
+	padding-left: 20px;
+	background: url(images/icon_arr_black.gif) no-repeat left 8px;
+	font-size: 1.2em;
+}
+
+.sitemap-inner .sub-menu {
+	padding-left: 15px;
+}
+
+.sitemap-inner .sub-menu li { 
+	margin-top: 8px;
+	padding-left: 12px;
+	background: url(images/icon_arr_black2.gif) no-repeat left center;
+	font-size: 0.9em;
+}
+
+

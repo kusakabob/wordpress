@@ -1,0 +1,108 @@
+■Chapter05　コピー＆ペースト用ソースコード
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P106　LESSON001－STEP1［1-1］　header.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php wp_head(); ?>
+</head>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P106　LESSON001－STEP1［1-2］　footer.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php wp_footer(); ?>
+</body>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P112　LESSON002－STEP2［2-1］　Home Template（書き換える前の記述はプラグインのバージョンによって異なります）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<a title="%title%." href="%link%">%htitle%</a>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P113　LESSON002－STEP2［3-1］　Page Template（書き換える前の記述はプラグインのバージョンによって異なります）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<a title="%title%" href="%link%">%htitle%</a>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P113　LESSON002－STEP2［4-1］　Category Template（書き換える前の記述はプラグインのバージョンによって異なります）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<a title="%title%" href="%link%">%htitle%</a>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P113　LESSON002－STEP2［4-1］　Tag Template（書き換える前の記述はプラグインのバージョンによって異なります）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<a title="%title%" href="%link%">%htitle%</a>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P114　LESSON002－STEP2［5-2］　functions.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//ウィジェット
+register_sidebar(array(
+	'before_widget' => '<div class="breadcrumbs">',
+	'after_widget' => '</div>',
+	'name'=>'パンくずリスト'
+));
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P115　LESSON002－STEP2［8-1］　header.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php dynamic_sidebar(); ?>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P115　LESSON002－STEP2［9-1］　style.css（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+/*breadcrumbs*/
+.breadcrumbs {
+	width: 960px;
+	margin: 0 auto;
+	text-align: right;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P117　LESSON002－STEP3［3-1］　category.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); } ?>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P118　LESSON002－STEP3［4-1］　style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+/*PagiNavi*/
+.wp-pagenavi { 
+	padding-top: 10px;
+	padding-bottom: 25px;
+}
+.wp-pagenavi a,
+.pages,
+.current {
+	margin-right: 4px;
+	padding: 3px 6px;
+	border: 1px solid #ccc;
+	background: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	text-align:center;
+}
+.wp-pagenavi a:hover,
+.current{
+	color: #fff;
+	background: #3793ce;
+}
+

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.1/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.1/"
+>
+
+<channel>
+<wp:wxr_version>1.1</wp:wxr_version>
+	<item>
+		<title>xxxCOMPANYから日常のトピックスのサンプル001</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+
+		<wp:post_date>2012-02-11 18:00:00</wp:post_date>
+		<wp:post_date_gmt>2012-02-11 09:00:00</wp:post_date_gmt>
+		<wp:post_name>t004</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>topics</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="topicscat" nicename="life"><![CDATA[日常のトピックス]]></category>
+	</item>
+	<item>
+		<title>xxxCOMPANYから経済のトピックスのサンプル002</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+
+		<wp:post_date>2012-02-12 18:00:00</wp:post_date>
+		<wp:post_date_gmt>2012-02-12 09:00:00</wp:post_date_gmt>
+		<wp:post_name>t005</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>topics</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="topicscat" nicename="economy"><![CDATA[経済のトピックス]]></category>
+	</item>
+	<item>
+		<title>xxxCOMPANYから経済のトピックスのサンプル003</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+
+		<wp:post_date>2012-02-13 18:00:00</wp:post_date>
+		<wp:post_date_gmt>2012-02-13 09:00:00</wp:post_date_gmt>
+		<wp:post_name>t006</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>topics</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="topicscat" nicename="sports"><![CDATA[スポーツのトピックス]]></category>
+	</item>
+	<item>
+		<title>xxxCOMPANYから経済のトピックスのサンプル004</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+
+		<wp:post_date>2012-02-14 18:00:00</wp:post_date>
+		<wp:post_date_gmt>2012-02-14 09:00:00</wp:post_date_gmt>
+		<wp:post_name>t007</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>topics</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="topicscat" nicename="economy"><![CDATA[経済のトピックス]]></category>
+	</item>
+	<item>
+		<title>xxxCOMPANYから日常のトピックスのサンプル005</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+
+		<wp:post_date>2012-02-15 18:00:00</wp:post_date>
+		<wp:post_date_gmt>2012-02-15 09:00:00</wp:post_date_gmt>
+		<wp:post_name>t008</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>topics</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="topicscat" nicename="life"><![CDATA[日常のトピックス]]></category>
+	</item>
+	<item>
+		<title>xxxCOMPANYからスポーツのトピックスのサンプル006</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+
+		<wp:post_date>2012-02-16 18:00:00</wp:post_date>
+		<wp:post_date_gmt>2012-02-16 09:00:00</wp:post_date_gmt>
+		<wp:post_name>t009</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>topics</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="topicscat" nicename="sports"><![CDATA[スポーツのトピックス]]></category>
+	</item>
+	<item>
+		<title>xxxCOMPANYから日常のトピックスのサンプル07</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+
+		<wp:post_date>2012-02-17 18:00:00</wp:post_date>
+		<wp:post_date_gmt>2012-02-17 09:00:00</wp:post_date_gmt>
+		<wp:post_name>t010</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>topics</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="topicscat" nicename="life"><![CDATA[日常のトピックス]]></category>
+	</item>
+</channel>
+</rss>

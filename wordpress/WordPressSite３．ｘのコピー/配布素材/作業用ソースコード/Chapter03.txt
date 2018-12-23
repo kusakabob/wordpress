@@ -1,0 +1,428 @@
+■Chapter03　コピー＆ペースト用ソースコード
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P060　LESSON001－STEP1［2-1］　style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+
+/*-------------
+base
+-------------*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,p,blockquote,th,td {
+	margin:0;
+	padding:0;
+}
+img {
+	border:0;
+	vertical-align: top;
+}
+body {
+	background: url(images/bg_body.png) repeat 0 0;
+	font-size: 62.5%;
+	font-family: " メイリオ",Meiryo,Osaka," ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro"," ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P060　LESSON001－STEP1［3-1］　header.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P061　LESSON001－STEP2［2-1］　header.php（変更行のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<h1 ><img src="<?php bloginfo('template_url'); ?>/images/logo.gif" width="184" height="20" alt="<?php bloginfo('name'); ?>" /></h1>
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P061　LESSON001－STEP2［3-1］　header.php（変更行のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<h1><a href="<?php echo home_url( '/' ); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.gif" width="184" height="20" alt="<?php bloginfo('name'); ?>" /></a></h1>
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P062　LESSON001－STEP3［1-1］　header.php（<!--header-->部分）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<!-- header -->
+<div id="header">
+<div id="header-inner">
+<h1><a href="<?php echo home_url( '/' ); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.gif" width="184" height="20" alt="<?php bloginfo('name'); ?>" /></a></h1>
+<p><?php bloginfo('description'); ?></p>
+</div>
+</div>
+<!-- /header -->
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P062　LESSON001－STEP3［2-1］　header.php（<!--header-->部分）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<!-- header -->
+<div id="header">
+<div id="header-inner">
+<div id="header-top">
+<h1><a href="<?php echo home_url( '/' ); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.gif" width="184" height="20" alt="<?php bloginfo('name'); ?>" /></a></h1>
+<p><?php bloginfo('description'); ?></p>
+</div>
+</div>
+</div>
+<!-- /header -->
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P063　LESSON001－STEP3［3-1］　style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+/*-------------
+header
+-------------*/
+#header { 
+	width: 100%;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #878787;
+	background: #efeeeb url(images/bg_header.gif) repeat-x left top;
+}
+#header-inner { 
+	width: 960px;
+	margin: 0 auto;
+}
+#header-top {
+	height: 81px;
+	font-size:1.1em;
+}
+#header-top h1 { 
+	padding-top: 18px;
+}
+#header-top p {
+	padding-top: 3px; 
+	color: #797979;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P063　LESSON001－STEP4［1-1］　header.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<ul>
+<li><a href="<?php bloginfo('url'); ?>/sitemap/">サイトマップ</a></li>
+<li><a href="<?php bloginfo('rss2_url'); ?>">RSS FEED</a></li>
+</ul>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P064　LESSON001－STEP4［2-1］　header.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<link rel="alternate" type="application/rss+xml" title="RSS FEED" href="<?php bloginfo('rss2_url'); ?>" />
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P064　LESSON001－STEP4［3-1］　header.php（<!-- header -->部分）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<!-- header -->
+<div id="header">
+<div id="header-inner">
+<div id="header-top">
+<div class="fLeft">
+<h1><a href="<?php echo home_url( '/' ); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.gif" width="184" height="20" alt="<?php bloginfo('name'); ?>" /></a></h1>
+<p><?php bloginfo('description'); ?></p>
+</div>
+<div class="fRight">
+<ul>
+<li><a href="<?php bloginfo('url'); ?>/sitemap/">サイトマップ</a></li>
+<li><a href="<?php bloginfo('rss2_url'); ?>">RSS FEED</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<!-- /header -->
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P064　LESSON001－STEP4［4-1］　header.php（.fRight部分）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<div class="fRight">
+<ul>
+<li><a href="<?php bloginfo('url'); ?>/sitemap/" class="sitemap">サイトマップ</a></li>
+<li><a href="<?php bloginfo('rss2_url'); ?>" class="rss">RSS FEED</a></li>
+</ul>
+</div>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P065　LESSON001－STEP5［1-1］　style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+a{
+	color: #429ad2;
+	outline: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul,ol {
+	list-style: none;
+}
+.fLeft {
+	float: left;
+}
+.fRight {
+	float: right;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P065　LESSON001－STEP5［2-1］　style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+#header-top ul {
+	text-align: right;
+}
+#header-top ul li { 
+	display: inline;
+}
+#header-top ul li a {
+	padding: 3px 5px 2px;
+	color: #fff;
+	text-decoration: none;
+}
+#header-top ul a:hover { 
+	text-decoration: underline;
+}
+#header-top ul a.sitemap { 
+	padding-left: 18px;
+	background: #00b5de url(images/icon_arr_white.gif) no-repeat 5px center;
+}
+#header-top ul a.rss{ 
+	padding-left: 23px;
+	background: #00b5de url(images/icon_rss.gif) no-repeat 5px center;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P066　LESSON001－STEP6［1-1］　functions.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php
+//ここにコードを記述
+?>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P066　LESSON001－STEP6［2-1］　functions.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php
+//サイトナビゲーション用
+register_nav_menus(array('nav' => 'ナビゲーション'));
+?>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P068　LESSON001－STEP8［1-1］　header.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<div id="header-nav">
+
+</div>
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P069　LESSON001－STEP8［2-1］　header.php（#header-nav部分）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<div id="header-nav">
+<?php wp_nav_menu(array('theme_location' => 'nav')); ?>
+</div>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P069　LESSON001－STEP9［1-1］　style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+/*nav*/
+#header-nav { 
+	clear: both;
+}
+#header-nav ul#menu-nav {
+	height: 46px;
+	background: url(images/bg_nav.gif) no-repeat left top;
+}
+#header-nav ul li.menu-item a{ 
+	display: block; 
+	width: 160px; 
+	height: 46px;
+	line-height: 46px;
+	background: url(images/bg_nav_btn.gif) no-repeat left top;
+	color: #333;
+	font-weight: bold;
+	font-size: 1.4em;
+	text-decoration: none;
+	text-align: center; 
+}
+
+#header-nav ul li.menu-item a:hover {
+	background: url(images/bg_nav_btn.gif) no-repeat left -46px;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P070　LESSON001－STEP9［3-1］　style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+#header-nav ul li.menu-item a:hover, 
+#header-nav ul li.current-menu-item a {
+	background: url(images/bg_nav_btn.gif) no-repeat left -46px;
+}
+
+
+※※※※※※※注意※※※※※※※※※※※
+
+新規で記述ではなく、先ほどの最後のスタイルに追記する形です。
+
+【変更前】
+#header-nav ul li.menu-item a:hover {
+	background: url(images/bg_nav_btn.gif) no-repeat left -46px;
+}
+
+【変更後】
+#header-nav ul li.menu-item a:hover, 
+#header-nav ul li.current-menu-item a {
+	background: url(images/bg_nav_btn.gif) no-repeat left -46px;
+}
+
+となります。
+※※※※※※※※※※※※※※※※※※※※
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P070　LESSON001－STEP10［1-1］　header.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<div id="header-gra">
+<img src="<?php bloginfo('template_url'); ?>/images/gra_main.jpg" width="960" height="300" alt="" />
+</div>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P072　LESSON002－STEP1［1-1］　style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+/*-------------
+footer
+-------------*/
+#footer { 
+	clear: both;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-top: 1px solid #aaa;
+	background: #000;
+}
+#footer p {
+	width: 960px; 
+	margin: 0 auto; 
+	color: #fff;
+	text-align: right;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P072　LESSON002－STEP2［1-1］　index.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<!--contents -->
+<div id="contents">
+
+</div>
+<!--/contents -->
+
+<!--sidebar -->
+<div id="sidebar">
+
+</div>
+<!--/sidebar -->
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P073　LESSON002－STEP2［2-1］　index.php（<!--container -->部分）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<!--container -->
+<div id="container">
+
+<!--contents -->
+<div id="contents">
+
+</div>
+<!--/contents -->
+
+<!--sidebar -->
+<div id="sidebar">
+
+</div>
+<!--/sidebar -->
+
+</div>
+<!--/container -->
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P073　LESSON002－STEP2［3-1］　style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+/*-------------
+container
+-------------*/
+#container {
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+/*-------------
+contents
+-------------*/
+#contents { 
+	float: left;
+	width: 670px;
+	height: 300px;
+	margin-bottom: 15px;
+	font-size: 1.2em;
+	line-height: 1.5;
+}
+
+/*-------------
+sidebar
+-------------*/
+#sidebar {
+	float: right;
+	width: 275px;
+	margin-bottom: 15px;
+}
+
+#sidebar #bnr li{
+	margin-bottom: 5px;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P074　LESSON002－STEP3［2-1］　sidebar.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<ul id="bnr">
+<li><a href="#"><img src="<?php bloginfo('template_url'); ?>/images/side-bnr001.jpg" width="275" height="70" alt="" /></a></li>
+<li><a href="#"><img src="<?php bloginfo('template_url'); ?>/images/side-bnr002.jpg" width="275" height="70" alt="" /></a></li>
+<li><a href="#"><img src="<?php bloginfo('template_url'); ?>/images/side-bnr003.jpg" width="275" height="70" alt="" /></a></li>
+</ul>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P074　LESSON002－STEP3［3-1］　index.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<!--sidebar -->
+<?php get_sidebar(); ?>
+<!--/sidebar -->
+

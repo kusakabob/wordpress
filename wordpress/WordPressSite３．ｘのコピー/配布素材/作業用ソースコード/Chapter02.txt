@@ -1,0 +1,152 @@
+■Chapter02　コピー＆ペースト用ソースコード
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P040　LESSON003－STEP3［1-2］　style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+@charset "utf-8";
+/*
+Theme Name: xxxCOMPANY
+Theme URI: 自分のURL
+Description: COMPANY off icial theme
+*/
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P043　LESSON004－STEP1［1-1］　index.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>HTML 基本タグ</title>
+</head>
+<body>
+</body>
+</html>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P044　LESSON004－STEP2［1-1］　index.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php bloginfo('name'); ?>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P045　LESSON004－STEP3［1-1］　index.php（変更行のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P047　LESSON004－STEP4［2-1］　index.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<body>
+<h1><?php bloginfo('name'); ?></h1>
+<p><?php bloginfo('description'); ?></p>
+<ul>
+<li><?php bloginfo('url'); ?></li>
+<li><?php bloginfo('stylesheet_url'); ?></li>
+<li><?php bloginfo('template_url'); ?></li>
+<li><?php bloginfo('template_directory'); ?></li>
+<li><?php bloginfo('charset'); ?></li>
+<li><?php bloginfo('html_type'); ?></li>
+<li><?php bloginfo('rss_url'); ?></li>
+<li><?php bloginfo('rss2_url'); ?></li>
+<li><?php bloginfo('rdf_url'); ?></li>
+<li><?php bloginfo('atom_url'); ?></li>
+<li><?php bloginfo('comments_rss2_url'); ?></li>
+<li><?php bloginfo('pingback_url'); ?></li>
+<li><?php bloginfo('wpurl'); ?></li>
+<li><?php bloginfo('admin_email'); ?></li>
+<li><?php bloginfo('version'); ?></li>
+</ul>
+<p>COPYRIGHT &copy; 2012 <?php bloginfo('name'); ?> AllRIGHTS RESERVED</p>
+</body>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P049　LESSON005－STEP2［1-1］　index.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<body>
+<!-- header -->
+<div id="header">
+<h1><?php bloginfo('name'); ?></h1>
+<p><?php bloginfo('description'); ?></p>
+</div>
+<!-- /header -->
+
+<!-- contents -->
+<div id="contents">
+<ul>
+<li><?php bloginfo('url'); ?></li>
+<li><?php bloginfo('stylesheet_url'); ?></li>
+<li><?php bloginfo('template_url'); ?></li>
+<li><?php bloginfo('template_directory'); ?></li>
+<li><?php bloginfo('charset'); ?></li>
+<li><?php bloginfo('html_type'); ?></li>
+<li><?php bloginfo('rss_url'); ?></li>
+<li><?php bloginfo('rss2_url'); ?></li>
+<li><?php bloginfo('rdf_url'); ?></li>
+<li><?php bloginfo('atom_url'); ?></li>
+<li><?php bloginfo('comments_rss2_url'); ?></li>
+<li><?php bloginfo('pingback_url'); ?></li>
+<li><?php bloginfo('wpurl'); ?></li>
+<li><?php bloginfo('admin_email'); ?></li>
+<li><?php bloginfo('version'); ?></li>
+</ul>
+</div>
+<!-- /contents -->
+
+<!-- footer -->
+<div id="footer">
+<p>COPYRIGHT &copy; 2012 <?php bloginfo('name'); ?> AllRIGHTS RESERVED</p>
+</div>
+<!-- /footer -->
+</body>
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P050　LESSON005－STEP4［1-1］　index.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php get_header(); ?>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P051　LESSON005－STEP6［1-1］　index.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php get_footer(); ?>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P053　LESSON005－STEP8［1-1］　index.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<!-- カスタムテンプレートsample.php の読み込み -->
+<?php get_template_part('sample'); ?>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P055　LESSON006－STEP1［2-1］index.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php if(have_posts()): ?>
+<?php while(have_posts()): the_post(); ?>
+<!-- 投稿した記事のタイトルを表示 -->
+<h2><?php the_title(); ?></h2>
+<?php endwhile; ?>
+<?php endif; ?>
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P055　LESSON006－STEP2［1-1］　index.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<!-- 投稿した記事の本文を表示 -->
+<?php the_content(); ?>
+
+

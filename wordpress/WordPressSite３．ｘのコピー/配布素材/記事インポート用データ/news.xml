@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.1/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.1/"
+>
+
+<channel>
+<wp:wxr_version>1.1</wp:wxr_version>
+	<item>
+		<title>｢お知らせサンプル001｣xxxCOMPANYからのお知らせ</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。]]></content:encoded>
+		<excerpt:encoded><![CDATA[｢お知らせサンプル001｣xxxCOMPANYからのお知らせがあります。]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-03 16:10:00</wp:post_date>
+		<wp:post_date_gmt>2012-01-03 07:10:00</wp:post_date_gmt>
+		<wp:post_name>info004</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="info"><![CDATA[お知らせ]]></category>
+	</item>
+	<item>
+		<title>｢セミナーサンプル001｣○○○セミナー開催のお知らせ</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+<ul>
+	<li>出演 : 山田　某（○×大学　教授）</li>
+	<li>日時 : 2012年4月01日（水） 19:00-20:30</li>
+	<li>会場 : 渋谷○○○ホール（1階）</li>
+	<li>定員 : 150名</li>
+	<li>会費 : 一般3,000円　会員2,000円</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[｢セミナーサンプル001｣○○○セミナーが開催されることになりました。]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-03 17:10:00</wp:post_date>
+		<wp:post_date_gmt>2012-01-03 08:10:00</wp:post_date_gmt>
+		<wp:post_name>semi004</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="seminar"><![CDATA[セミナー]]></category>
+	</item>
+	<item>
+		<title>｢お知らせサンプル002｣xxxCOMPANYからのお知らせ</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。]]></content:encoded>
+		<excerpt:encoded><![CDATA[｢お知らせサンプル002｣xxxCOMPANYからのお知らせがあります。]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-04 16:10:00</wp:post_date>
+		<wp:post_date_gmt>2012-01-04 07:10:00</wp:post_date_gmt>
+		<wp:post_name>info005</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="info"><![CDATA[お知らせ]]></category>
+	</item>
+	<item>
+		<title>｢セミナーサンプル002｣○○○セミナー開催のお知らせ</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+<ul>
+	<li>出演 : 山田　某（○×大学　教授）</li>
+	<li>日時 : 2012年4月01日（水） 19:00-20:30</li>
+	<li>会場 : 渋谷○○○ホール（1階）</li>
+	<li>定員 : 150名</li>
+	<li>会費 : 一般3,000円　会員2,000円</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[｢セミナーサンプル002｣○○○セミナーが開催されることになりました。]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-04 17:10:00</wp:post_date>
+		<wp:post_date_gmt>2012-01-04 08:10:00</wp:post_date_gmt>
+		<wp:post_name>semi005</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="seminar"><![CDATA[セミナー]]></category>
+	</item>
+	<item>
+		<title>｢お知らせサンプル003｣xxxCOMPANYからのお知らせ</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。]]></content:encoded>
+		<excerpt:encoded><![CDATA[｢お知らせサンプル003｣xxxCOMPANYからのお知らせがあります。]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-05 16:10:00</wp:post_date>
+		<wp:post_date_gmt>2012-01-05 07:10:00</wp:post_date_gmt>
+		<wp:post_name>info006</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="info"><![CDATA[お知らせ]]></category>
+	</item>
+	<item>
+		<title>｢セミナーサンプル003｣○○○セミナー開催のお知らせ</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+<ul>
+	<li>出演 : 山田　某（○×大学　教授）</li>
+	<li>日時 : 2012年4月01日（水） 19:00-20:30</li>
+	<li>会場 : 渋谷○○○ホール（1階）</li>
+	<li>定員 : 150名</li>
+	<li>会費 : 一般3,000円　会員2,000円</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[｢セミナーサンプル003｣○○○セミナーが開催されることになりました。]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-05 17:10:00</wp:post_date>
+		<wp:post_date_gmt>2012-01-05 08:10:00</wp:post_date_gmt>
+		<wp:post_name>semi006</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="seminar"><![CDATA[セミナー]]></category>
+	</item>
+	<item>
+		<title>｢お知らせサンプル004｣xxxCOMPANYからのお知らせ</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。]]></content:encoded>
+		<excerpt:encoded><![CDATA[｢お知らせサンプル004｣xxxCOMPANYからのお知らせがあります。]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-06 16:10:00</wp:post_date>
+		<wp:post_date_gmt>2012-01-06 07:10:00</wp:post_date_gmt>
+		<wp:post_name>info007</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="info"><![CDATA[お知らせ]]></category>
+	</item>
+	<item>
+		<title>｢セミナーサンプル004｣○○○セミナー開催のお知らせ</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+<ul>
+	<li>出演 : 山田　某（○×大学　教授）</li>
+	<li>日時 : 2012年4月01日（水） 19:00-20:30</li>
+	<li>会場 : 渋谷○○○ホール（1階）</li>
+	<li>定員 : 150名</li>
+	<li>会費 : 一般3,000円　会員2,000円</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[｢セミナーサンプル004｣○○○セミナーが開催されることになりました。]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-06 17:10:00</wp:post_date>
+		<wp:post_date_gmt>2012-01-06 08:10:00</wp:post_date_gmt>
+		<wp:post_name>semi007</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="seminar"><![CDATA[セミナー]]></category>
+	</item>
+	<item>
+		<title>｢お知らせサンプル005｣xxxCOMPANYからのお知らせ</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。]]></content:encoded>
+		<excerpt:encoded><![CDATA[｢お知らせサンプル005｣xxxCOMPANYからのお知らせがあります。]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-07 16:10:00</wp:post_date>
+		<wp:post_date_gmt>2012-01-07 07:10:00</wp:post_date_gmt>
+		<wp:post_name>info008</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="info"><![CDATA[お知らせ]]></category>
+	</item>
+	<item>
+		<title>｢セミナーサンプル005｣○○○セミナー開催のお知らせ</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+<ul>
+	<li>出演 : 山田　某（○×大学　教授）</li>
+	<li>日時 : 2012年4月01日（水） 19:00-20:30</li>
+	<li>会場 : 渋谷○○○ホール（1階）</li>
+	<li>定員 : 150名</li>
+	<li>会費 : 一般3,000円　会員2,000円</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[｢セミナーサンプル004｣○○○セミナーが開催されることになりました。]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-07 17:10:00</wp:post_date>
+		<wp:post_date_gmt>2012-01-07 08:10:00</wp:post_date_gmt>
+		<wp:post_name>semi007</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="seminar"><![CDATA[セミナー]]></category>
+	</item>	
+	<item>
+		<title>｢お知らせサンプル006｣xxxCOMPANYからのお知らせ</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。]]></content:encoded>
+		<excerpt:encoded><![CDATA[｢お知らせサンプル006｣xxxCOMPANYからのお知らせがあります。]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-08 16:10:00</wp:post_date>
+		<wp:post_date_gmt>2012-01-08 07:10:00</wp:post_date_gmt>
+		<wp:post_name>info009</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="info"><![CDATA[お知らせ]]></category>
+	</item>
+	<item>
+		<title>｢セミナーサンプル006｣○○○セミナー開催のお知らせ</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+<ul>
+	<li>出演 : 山田　某（○×大学　教授）</li>
+	<li>日時 : 2012年4月01日（水） 19:00-20:30</li>
+	<li>会場 : 渋谷○○○ホール（1階）</li>
+	<li>定員 : 150名</li>
+	<li>会費 : 一般3,000円　会員2,000円</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[｢セミナーサンプル006｣○○○セミナーが開催されることになりました。]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-08 17:10:00</wp:post_date>
+		<wp:post_date_gmt>2012-01-08 08:10:00</wp:post_date_gmt>
+		<wp:post_name>semi009</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="seminar"><![CDATA[セミナー]]></category>
+	</item>
+	<item>
+		<title>｢お知らせサンプル007｣xxxCOMPANYからのお知らせ</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。]]></content:encoded>
+		<excerpt:encoded><![CDATA[｢お知らせサンプル007｣xxxCOMPANYからのお知らせがあります。]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-09 16:10:00</wp:post_date>
+		<wp:post_date_gmt>2012-01-09 07:10:00</wp:post_date_gmt>
+		<wp:post_name>info010</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="info"><![CDATA[お知らせ]]></category>
+	</item>
+	<item>
+		<title>｢セミナーサンプル007｣○○○セミナー開催のお知らせ</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+<ul>
+	<li>出演 : 山田　某（○×大学　教授）</li>
+	<li>日時 : 2012年4月01日（水） 19:00-20:30</li>
+	<li>会場 : 渋谷○○○ホール（1階）</li>
+	<li>定員 : 150名</li>
+	<li>会費 : 一般3,000円　会員2,000円</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[｢セミナーサンプル007｣○○○セミナーが開催されることになりました。]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-09 17:10:00</wp:post_date>
+		<wp:post_date_gmt>2012-01-09 08:10:00</wp:post_date_gmt>
+		<wp:post_name>semi010</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="seminar"><![CDATA[セミナー]]></category>
+	</item>	
+	<item>
+		<title>｢お知らせサンプル008｣xxxCOMPANYからのお知らせ</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。]]></content:encoded>
+		<excerpt:encoded><![CDATA[｢お知らせサンプル008｣xxxCOMPANYからのお知らせがあります。]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-10 16:10:00</wp:post_date>
+		<wp:post_date_gmt>2012-01-10 07:10:00</wp:post_date_gmt>
+		<wp:post_name>info010</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="info"><![CDATA[お知らせ]]></category>
+	</item>
+	<item>
+		<title>｢セミナーサンプル008｣○○○セミナー開催のお知らせ</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+<ul>
+	<li>出演 : 山田　某（○×大学　教授）</li>
+	<li>日時 : 2012年4月01日（水） 19:00-20:30</li>
+	<li>会場 : 渋谷○○○ホール（1階）</li>
+	<li>定員 : 150名</li>
+	<li>会費 : 一般3,000円　会員2,000円</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[｢セミナーサンプル008｣○○○セミナーが開催されることになりました。]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-10 17:10:00</wp:post_date>
+		<wp:post_date_gmt>2012-01-10 08:10:00</wp:post_date_gmt>
+		<wp:post_name>semi011</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="seminar"><![CDATA[セミナー]]></category>
+	</item>
+	<item>
+		<title>｢お知らせサンプル009｣xxxCOMPANYからのお知らせ</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。]]></content:encoded>
+		<excerpt:encoded><![CDATA[｢お知らせサンプル009｣xxxCOMPANYからのお知らせがあります。]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-11 16:10:00</wp:post_date>
+		<wp:post_date_gmt>2012-01-11 07:10:00</wp:post_date_gmt>
+		<wp:post_name>info012</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="info"><![CDATA[お知らせ]]></category>
+	</item>
+	<item>
+		<title>｢セミナーサンプル009｣○○○セミナー開催のお知らせ</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+<ul>
+	<li>出演 : 山田　某（○×大学　教授）</li>
+	<li>日時 : 2012年4月01日（水） 19:00-20:30</li>
+	<li>会場 : 渋谷○○○ホール（1階）</li>
+	<li>定員 : 150名</li>
+	<li>会費 : 一般3,000円　会員2,000円</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[｢セミナーサンプル009｣○○○セミナーが開催されることになりました。]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-11 17:10:00</wp:post_date>
+		<wp:post_date_gmt>2012-01-11 08:10:00</wp:post_date_gmt>
+		<wp:post_name>semi012</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="seminar"><![CDATA[セミナー]]></category>
+	</item>	
+	<item>
+		<title>｢お知らせサンプル010｣xxxCOMPANYからのお知らせ</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。]]></content:encoded>
+		<excerpt:encoded><![CDATA[｢お知らせサンプル010｣xxxCOMPANYからのお知らせがあります。]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-12 16:10:00</wp:post_date>
+		<wp:post_date_gmt>2012-01-12 07:10:00</wp:post_date_gmt>
+		<wp:post_name>info013</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="info"><![CDATA[お知らせ]]></category>
+	</item>
+	<item>
+		<title>｢セミナーサンプル010｣○○○セミナー開催のお知らせ</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+<ul>
+	<li>出演 : 山田　某（○×大学　教授）</li>
+	<li>日時 : 2012年4月01日（水） 19:00-20:30</li>
+	<li>会場 : 渋谷○○○ホール（1階）</li>
+	<li>定員 : 150名</li>
+	<li>会費 : 一般3,000円　会員2,000円</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[｢セミナーサンプル010｣○○○セミナーが開催されることになりました。]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-11 17:10:00</wp:post_date>
+		<wp:post_date_gmt>2012-01-11 08:10:00</wp:post_date_gmt>
+		<wp:post_name>semi012</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="seminar"><![CDATA[セミナー]]></category>
+	</item>	
+	<item>
+		<title>｢お知らせサンプル011｣xxxCOMPANYからのお知らせ</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。]]></content:encoded>
+		<excerpt:encoded><![CDATA[｢お知らせサンプル011｣xxxCOMPANYからのお知らせがあります。]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-13 16:10:00</wp:post_date>
+		<wp:post_date_gmt>2012-01-13 07:10:00</wp:post_date_gmt>
+		<wp:post_name>info014</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="info"><![CDATA[お知らせ]]></category>
+	</item>
+	<item>
+		<title>｢セミナーサンプル011｣○○○セミナー開催のお知らせ</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+<ul>
+	<li>出演 : 山田　某（○×大学　教授）</li>
+	<li>日時 : 2012年4月01日（水） 19:00-20:30</li>
+	<li>会場 : 渋谷○○○ホール（1階）</li>
+	<li>定員 : 150名</li>
+	<li>会費 : 一般3,000円　会員2,000円</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[｢セミナーサンプル011｣○○○セミナーが開催されることになりました。]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-13 17:10:00</wp:post_date>
+		<wp:post_date_gmt>2012-01-13 08:10:00</wp:post_date_gmt>
+		<wp:post_name>semi014</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="seminar"><![CDATA[セミナー]]></category>
+	</item>	
+	<item>
+		<title>｢お知らせサンプル012｣xxxCOMPANYからのお知らせ</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。]]></content:encoded>
+		<excerpt:encoded><![CDATA[｢サンプル012｣xxxCOMPANYからのお知らせがあります。]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-14 16:10:00</wp:post_date>
+		<wp:post_date_gmt>2012-01-14 07:10:00</wp:post_date_gmt>
+		<wp:post_name>info015</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="info"><![CDATA[お知らせ]]></category>
+	</item>
+	<item>
+		<title>｢セミナーサンプル012｣○○○セミナー開催のお知らせ</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+<ul>
+	<li>出演 : 山田　某（○×大学　教授）</li>
+	<li>日時 : 2012年4月01日（水） 19:00-20:30</li>
+	<li>会場 : 渋谷○○○ホール（1階）</li>
+	<li>定員 : 150名</li>
+	<li>会費 : 一般3,000円　会員2,000円</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[｢セミナーサンプル012｣○○○セミナーが開催されることになりました。]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-14 17:10:00</wp:post_date>
+		<wp:post_date_gmt>2012-01-14 08:10:00</wp:post_date_gmt>
+		<wp:post_name>semi015</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="seminar"><![CDATA[セミナー]]></category>
+	</item>
+	<item>
+		<title>｢お知らせサンプル013｣xxxCOMPANYからのお知らせ</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。]]></content:encoded>
+		<excerpt:encoded><![CDATA[｢お知らせサンプル013｣xxxCOMPANYからのお知らせがあります。]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-15 16:10:00</wp:post_date>
+		<wp:post_date_gmt>2012-01-15 07:10:00</wp:post_date_gmt>
+		<wp:post_name>info016</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="info"><![CDATA[お知らせ]]></category>
+	</item>
+	<item>
+		<title>｢セミナーサンプル013｣○○○セミナー開催のお知らせ</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+<ul>
+	<li>出演 : 山田　某（○×大学　教授）</li>
+	<li>日時 : 2012年4月01日（水） 19:00-20:30</li>
+	<li>会場 : 渋谷○○○ホール（1階）</li>
+	<li>定員 : 150名</li>
+	<li>会費 : 一般3,000円　会員2,000円</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[｢セミナーサンプル013｣○○○セミナーが開催されることになりました。]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-15 17:10:00</wp:post_date>
+		<wp:post_date_gmt>2012-01-15 08:10:00</wp:post_date_gmt>
+		<wp:post_name>semi016</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="seminar"><![CDATA[セミナー]]></category>
+	</item>
+	<item>
+		<title>｢お知らせサンプル014｣xxxCOMPANYからのお知らせ</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。]]></content:encoded>
+		<excerpt:encoded><![CDATA[｢お知らせサンプル014｣xxxCOMPANYからのお知らせがあります。]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-16 16:10:00</wp:post_date>
+		<wp:post_date_gmt>2012-01-16 07:10:00</wp:post_date_gmt>
+		<wp:post_name>info017</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="info"><![CDATA[お知らせ]]></category>
+	</item>
+	<item>
+		<title>｢セミナーサンプル014｣○○○セミナー開催のお知らせ</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+<ul>
+	<li>出演 : 山田　某（○×大学　教授）</li>
+	<li>日時 : 2012年4月01日（水） 19:00-20:30</li>
+	<li>会場 : 渋谷○○○ホール（1階）</li>
+	<li>定員 : 150名</li>
+	<li>会費 : 一般3,000円　会員2,000円</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[｢セミナーサンプル014｣○○○セミナーが開催されることになりました。]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-16 17:10:00</wp:post_date>
+		<wp:post_date_gmt>2012-01-16 08:10:00</wp:post_date_gmt>
+		<wp:post_name>semi017</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="seminar"><![CDATA[セミナー]]></category>
+	</item>
+	<item>
+		<title>｢お知らせサンプル015｣xxxCOMPANYからのお知らせ</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。]]></content:encoded>
+		<excerpt:encoded><![CDATA[｢お知らせサンプル015｣xxxCOMPANYからのお知らせがあります。]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-17 16:10:00</wp:post_date>
+		<wp:post_date_gmt>2012-01-17 07:10:00</wp:post_date_gmt>
+		<wp:post_name>info018</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="info"><![CDATA[お知らせ]]></category>
+	</item>
+	<item>
+		<title>｢セミナーサンプル015｣○○○セミナー開催のお知らせ</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+<ul>
+	<li>出演 : 山田　某（○×大学　教授）</li>
+	<li>日時 : 2012年4月01日（水） 19:00-20:30</li>
+	<li>会場 : 渋谷○○○ホール（1階）</li>
+	<li>定員 : 150名</li>
+	<li>会費 : 一般3,000円　会員2,000円</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[｢セミナーサンプル015｣○○○セミナーが開催されることになりました。]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-17 17:10:00</wp:post_date>
+		<wp:post_date_gmt>2012-01-17 08:10:00</wp:post_date_gmt>
+		<wp:post_name>semi018</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="seminar"><![CDATA[セミナー]]></category>
+	</item>
+	<item>
+		<title>｢お知らせサンプル016｣xxxCOMPANYからのお知らせ</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。]]></content:encoded>
+		<excerpt:encoded><![CDATA[｢お知らせサンプル016｣xxxCOMPANYからのお知らせがあります。]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-18 16:10:00</wp:post_date>
+		<wp:post_date_gmt>2012-01-18 07:10:00</wp:post_date_gmt>
+		<wp:post_name>info019</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="info"><![CDATA[お知らせ]]></category>
+	</item>
+	<item>
+		<title>｢セミナーサンプル016｣○○○セミナー開催のお知らせ</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+<ul>
+	<li>出演 : 山田　某（○×大学　教授）</li>
+	<li>日時 : 2012年4月01日（水） 19:00-20:30</li>
+	<li>会場 : 渋谷○○○ホール（1階）</li>
+	<li>定員 : 150名</li>
+	<li>会費 : 一般3,000円　会員2,000円</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[｢セミナーサンプル016｣○○○セミナーが開催されることになりました。]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-18 17:10:00</wp:post_date>
+		<wp:post_date_gmt>2012-01-18 08:10:00</wp:post_date_gmt>
+		<wp:post_name>semi019</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="seminar"><![CDATA[セミナー]]></category>
+	</item>
+	<item>
+		<title>｢お知らせサンプル017｣xxxCOMPANYからのお知らせ</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。]]></content:encoded>
+		<excerpt:encoded><![CDATA[｢お知らせサンプル017｣xxxCOMPANYからのお知らせがあります。]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-19 16:10:00</wp:post_date>
+		<wp:post_date_gmt>2012-01-19 07:10:00</wp:post_date_gmt>
+		<wp:post_name>info020</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="info"><![CDATA[お知らせ]]></category>
+	</item>
+	<item>
+		<title>｢セミナーサンプル017｣○○○セミナー開催のお知らせ</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+<ul>
+	<li>出演 : 山田　某（○×大学　教授）</li>
+	<li>日時 : 2012年4月01日（水） 19:00-20:30</li>
+	<li>会場 : 渋谷○○○ホール（1階）</li>
+	<li>定員 : 150名</li>
+	<li>会費 : 一般3,000円　会員2,000円</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[｢セミナーサンプル017｣○○○セミナーが開催されることになりました。]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-19 17:10:00</wp:post_date>
+		<wp:post_date_gmt>2012-01-19 08:10:00</wp:post_date_gmt>
+		<wp:post_name>semi020</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="seminar"><![CDATA[セミナー]]></category>
+	</item>
+	<item>
+		<title>｢お知らせサンプル018｣xxxCOMPANYからのお知らせ</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。]]></content:encoded>
+		<excerpt:encoded><![CDATA[｢サンプル018｣xxxCOMPANYからのお知らせがあります。]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-20 16:10:00</wp:post_date>
+		<wp:post_date_gmt>2012-01-20 07:10:00</wp:post_date_gmt>
+		<wp:post_name>info021</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="info"><![CDATA[お知らせ]]></category>
+	</item>
+	<item>
+		<title>｢セミナーサンプル018｣○○○セミナー開催のお知らせ</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+<ul>
+	<li>出演 : 山田　某（○×大学　教授）</li>
+	<li>日時 : 2012年4月01日（水） 19:00-20:30</li>
+	<li>会場 : 渋谷○○○ホール（1階）</li>
+	<li>定員 : 150名</li>
+	<li>会費 : 一般3,000円　会員2,000円</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[｢セミナーサンプル018｣○○○セミナーが開催されることになりました。]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-20 17:10:00</wp:post_date>
+		<wp:post_date_gmt>2012-01-20 08:10:00</wp:post_date_gmt>
+		<wp:post_name>semi021</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="seminar"><![CDATA[セミナー]]></category>
+	</item>
+	<item>
+		<title>｢お知らせサンプル019｣xxxCOMPANYからのお知らせ</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。]]></content:encoded>
+		<excerpt:encoded><![CDATA[｢お知らせサンプル019｣xxxCOMPANYからのお知らせがあります。]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-21 16:10:00</wp:post_date>
+		<wp:post_date_gmt>2012-01-21 07:10:00</wp:post_date_gmt>
+		<wp:post_name>info022</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="info"><![CDATA[お知らせ]]></category>
+	</item>
+	<item>
+		<title>｢セミナーサンプル019｣○○○セミナー開催のお知らせ</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+<ul>
+	<li>出演 : 山田　某（○×大学　教授）</li>
+	<li>日時 : 2012年4月01日（水） 19:00-20:30</li>
+	<li>会場 : 渋谷○○○ホール（1階）</li>
+	<li>定員 : 150名</li>
+	<li>会費 : 一般3,000円　会員2,000円</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[｢セミナーサンプル019｣○○○セミナーが開催されることになりました。]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-21 17:10:00</wp:post_date>
+		<wp:post_date_gmt>2012-01-21 08:10:00</wp:post_date_gmt>
+		<wp:post_name>semi022</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="seminar"><![CDATA[セミナー]]></category>
+	</item>
+	<item>
+		<title>｢お知らせサンプル020｣xxxCOMPANYからのお知らせ</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。]]></content:encoded>
+		<excerpt:encoded><![CDATA[｢お知らせサンプル020｣xxxCOMPANYからのお知らせがあります。]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-22 16:10:00</wp:post_date>
+		<wp:post_date_gmt>2012-01-22 07:10:00</wp:post_date_gmt>
+		<wp:post_name>info023</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="info"><![CDATA[お知らせ]]></category>
+	</item>
+	<item>
+		<title>｢セミナーサンプル020｣○○○セミナー開催のお知らせ</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+<ul>
+	<li>出演 : 山田　某（○×大学　教授）</li>
+	<li>日時 : 2012年4月01日（水） 19:00-20:30</li>
+	<li>会場 : 渋谷○○○ホール（1階）</li>
+	<li>定員 : 150名</li>
+	<li>会費 : 一般3,000円　会員2,000円</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[｢セミナーサンプル020｣○○○セミナーが開催されることになりました。]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-22 17:10:00</wp:post_date>
+		<wp:post_date_gmt>2012-01-22 08:10:00</wp:post_date_gmt>
+		<wp:post_name>semi023</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="seminar"><![CDATA[セミナー]]></category>
+	</item>
+</channel>
+</rss>

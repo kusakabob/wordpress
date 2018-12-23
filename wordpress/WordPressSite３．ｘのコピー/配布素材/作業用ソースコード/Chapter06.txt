@@ -1,0 +1,638 @@
+■Chapter06　コピー＆ペースト用ソースコード
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P126　LESSON001－STEP1［3-1］　プラグイン「AddQuicktag」設定画面
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<h4>商品アイテム詳細</h4>
+<ul>
+<li>アイテムタイプ：テキスト</li>
+<li>アイテムサイズ：S/M/L</li>
+</ul>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P127　LESSON001－STEP1［5-1］　functions.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//アイキャッチ画像を利用
+add_theme_support( 'post-thumbnails' );
+set_post_thumbnail_size(110, 110, true);
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P132　LESSON001－STEP3［1-1］　index.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php query_posts( 'category_name=news' ); ?>
+<?php if(have_posts()): ?>
+<dl>
+<?php while(have_posts()): the_post(); ?>
+<dt><?php the_time('Y/m/d'); ?></dt>
+<?php
+$cats = get_the_category();
+$cats = $cats[0];
+?>
+<dd class="<?php echo $cats->category_nicename;?>">
+<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a><?php the_excerpt(); ?></dd>
+<?php endwhile; ?>
+</dl>
+<?php endif; wp_reset_query(); ?>
+</div>
+<!--/news -->
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P133　LESSON001－STEP3［3-1］　index.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<!--products -->
+<div id="products" class="box">
+<div class="section-header">
+<h2><img src="<?php bloginfo('template_url'); ?>/images/ttl_products.gif" width="130" height="23" alt="PRODUCTS" /></h2>
+<p><a href="<?php bloginfo('url'); ?>/products/">一覧を見る</a></p>
+</div>
+</div>
+<!--/products -->
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P133　LESSON001－STEP3［5-1］　index.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<ul class="item-lists">
+<li></li>
+</ul>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P134　LESSON001－STEP3［6-1］　index.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php if(have_posts()): ?>
+<ul class="item-lists">
+<?php while(have_posts()): the_post(); ?>
+<li><h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3></li>
+<?php endwhile; ?>
+</ul>
+<?php endif; ?>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P134　LESSON001－STEP3［7-1］　index.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php query_posts( 'category_name=products' ); ?>
+<?php if(have_posts()): ?>
+<ul class="item-lists">
+<?php while(have_posts()): the_post(); ?>
+<li>
+<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+</li>
+<?php endwhile; ?>
+</ul>
+<?php endif; wp_reset_query(); ?>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P134　LESSON001－STEP3［9-1］　index.php（追記箇所のみ※</h3></li>の間）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<p><?php echo post_custom('価格'); ?></p>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P136　LESSON001－STEP3［11-1］　index.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php the_post_thumbnail(); ?>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P136　LESSON001－STEP3［12-1］　index.php（if文全体）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php if ( has_post_thumbnail() ): ?>
+<?php the_post_thumbnail(); ?>
+<?php else: ?>
+<img src="<?php bloginfo('template_url') ?>/images/thum_noimage.gif" alt="NO IMAGE" width="110" height="110"/>
+<?php endif; ?>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P137　LESSON001－STEP3［14-1］　index.php（変更行のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php query_posts( 'category_name=products&posts_per_page=4' ); ?>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P138　LESSON001－STEP3［15-1］　index.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<span class="type">
+<?php
+$cats = get_the_category();
+$cats = $cats[0];
+?>
+<img src="<?php bloginfo('template_url'); ?>/images/icon_<?php echo $cats->category_nicename ?>.png" width="20" height="20" alt="" />
+</span>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P139　LESSON001－STEP3［16-1］　index.php（変更行のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php query_posts( 'category_name=news&posts_per_page=5' ); ?>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P140　LESSON001－STEP4［1-1］　style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+/*products*/
+#products ul.item-lists {
+	margin-left: -24px;
+	padding-top: 10px;
+}
+#products ul.item-lists li {
+	position: relative;
+	float: left;
+	width: 110px;
+	margin-left: 50px;
+}
+#products ul.item-lists li span.type {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+#products ul.item-lists li h3{
+	padding-top: 5px;
+	padding-bottom: 3px;
+	line-height: 1.2;
+}
+#products ul.item-lists li p {
+	padding-bottom: 8px;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P143　LESSON002－STEP1［2-1］　header.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php elseif(is_category('products')): ?>
+<img src="<?php bloginfo('template_url'); ?>/images/gra_products.jpg" width="960" height="70" alt="" />
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P144　LESSON002－STEP1［4-2］　header.php（変更行のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php elseif(is_category( array('products','products_a','products_b','products_c','products_d') ) ): ?>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P145　LESSON002－STEP2［2-1］　categoty-products.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<div id="original-products" class="box">
+<div class="section-header">
+<h2><img src="<?php bloginfo('template_url'); ?>/images/ttl_original_products.gif" width="225" height="23" alt="ORIGINAL PRODUCTS" /></h2>
+</div>
+<img src="<?php bloginfo('template_url'); ?>/images/item_products.jpg" width="283" height="222" alt="" class="items-img" />
+<div class="items-detail">
+<h3><img src="<?php bloginfo('template_url'); ?>/images/ttl_confidence.gif" width="209" height="27" alt="×××製の確かな自信" /></h3>
+<p><img src="<?php bloginfo('template_url'); ?>/images/products_text.gif" width="229" height="45" alt="" /></p>
+<p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。</p>
+<p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。</p>
+</div>
+</div>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P146　LESSON002－STEP2［3-1］　style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+/*original-products*/
+#original-products {
+	margin-bottom: 15px;
+}
+#original-products .items-img {
+	float: left;
+	margin-top: 10px;
+	margin-right: 20px;
+	border: 10px solid #e8edf0;
+}
+#original-products .items-detail h3 {
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+#original-products .items-detail p{
+	margin-bottom: 1em;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P147　LESSON002－STEP3［1-2］　categoty-products.php（<?php query_posts( 'category_name=products&posts_per_page=4' ); ?>）の行から書き換える）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php
+$catId = get_query_var( 'cat' );//カテゴリーID
+$children = get_terms( 'category', array( 'child_of' => $catId, 'fields' => 'ids' ) );
+foreach ( $children as $child ) ://子のカテゴリーがあるだけ繰り返します。
+query_posts( 'category_name=products&posts_per_page=4' );
+ ?>
+
+<?php if(have_posts()): ?>
+<ul class="item-lists">
+<?php while(have_posts()): the_post(); ?>
+<li>
+<span class="type">
+<?php
+$cats = get_the_category();
+$cats = $cats[0];
+?>
+<img src="<?php bloginfo('template_url'); ?>/images/icon_<?php echo $cats->category_nicename ?>.png" width="20" height="20" alt="" />
+</span>
+<?php if ( has_post_thumbnail() ): ?>
+<?php the_post_thumbnail(); ?>
+<?php else: ?>
+<img src="<?php bloginfo('template_url') ?>/images/thum_noimage.gif" alt="NO IMAGE" width="110" height="110"/>
+<?php endif; ?>
+<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+<p><?php echo post_custom('価格'); ?></p>
+</li>
+<?php endwhile; ?>
+</ul>
+<?php endif; wp_reset_query(); ?>
+<?php endforeach; ?>
+</div>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P148　LESSON002－STEP3［2-1］　categoty-products.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+query_posts('cat='.$child.'&posts_per_page= 4');
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P149　LESSON002－STEP3［4-1］　categoty-products.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php the_category(); ?>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P150　LESSON002－STEP3［5-1］　style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+#products .post-categories {
+	clear: both;
+	margin-left: 0;
+	text-align: right;
+}
+#products .post-categories li {
+	width: 100%;
+	margin-left: 0;
+	margin-bottom: 5px;
+	padding-bottom: 5px;	
+	border-bottom: 1px dashed #d1d1d1;
+}
+#products .post-categories li a {
+	padding-left: 15px;
+	padding-right: 5px;
+	background: url(images/icon_arr_black.gif) no-repeat left center;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P151　LESSON002－STEP4［1-1］　category-products_a.php（<!--products-->部分）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<div id="products" class="box">
+<div class="section-header">
+<h2><img src="<?php bloginfo('template_url'); ?>/images/ttl_products.gif" width="130" height="23" alt="PRODUCTS" /></h2>
+</div>
+<?php if(have_posts()): ?>
+<ul class="item-lists">
+<?php while(have_posts()): the_post(); ?>
+<li>
+<span class="type">
+<img src="<?php bloginfo('template_url'); ?>/images/icon_products_a.png" width="20" height="20" alt="" />
+</span>
+<?php if ( has_post_thumbnail() ): ?>
+<?php the_post_thumbnail(); ?>
+<?php else: ?>
+<img src="<?php bloginfo('template_url') ?>/images/thum_noimage.gif" alt="NO IMAGE" width="110" height="110"/>
+<?php endif; ?>
+<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+<p><?php echo post_custom('価格'); ?></p>
+</li>
+<?php endwhile; ?>
+</ul>
+<?php endif; ?>
+</div>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P152　LESSON002－STEP4［2-1］　category-products_a.php（追加行のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); } ?>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P152　LESSON002－STEP4［3-1］　category-products_b.php（変更行のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<img src="<?php bloginfo('template_url'); ?>/images/icon_products_b.png" width="20" height="20" alt="" />
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P152　LESSON002－STEP4［3-2］　category-products_c.php（変更行のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<img src="<?php bloginfo('template_url'); ?>/images/icon_products_c.png" width="20" height="20" alt="" />
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P152　LESSON002－STEP4［3-3］　category-products_d.php（変更行のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<img src="<?php bloginfo('template_url'); ?>/images/icon_products_d.png" width="20" height="20" alt="" />
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P156　LESSON003－STEP1［1-1］　sgl-news.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<!--news -->
+<div id="news" class="box">
+<div class="section-header">
+<h2><img src="<?php bloginfo('template_url'); ?>/images/ttl_news.gif" width="80" height="23" alt="NEWS" /></h2>
+</div>
+<?php if(have_posts()): ?>
+<div class="box-inner">
+<?php while(have_posts()): the_post(); ?>
+<?php
+$cats = get_the_category();
+$cats = $cats[0];
+?>
+<h3><span class="ttl-<?php echo $cats->category_nicename;?>"><?php the_title(); ?></span></h3>
+<p class="data">更新日：<?php the_time('Y/m/d'); ?></p>
+<?php the_content(); ?>
+<?php endwhile; ?>
+</div>
+<?php  endif; ?>
+</div>
+<!--/news -->
+<div class="box">
+<span class="fLeft"><?php previous_post_link('&laquo; %link', '前の情報を見る', TRUE); ?></span>
+<span class="fRight"><?php next_post_link('%link &raquo;', '次の情報を見る', TRUE) ?></span>
+</div>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P156　LESSON003－STEP1［2-1］　single.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php get_header(); ?>
+<!--container -->
+<div id="container">
+<!--contents -->
+<div id="contents">
+<?php get_template_part( 'sgl' , 'news' ); ?>
+</div>
+<!--/contents -->
+<!--sidebar -->
+<?php get_sidebar(); ?>
+<!--/sidebar -->
+</div>
+<!--/container -->
+<?php get_footer(); ?>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P157　LESSON003－STEP1［3-1］　sgl-products.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<!--products -->
+<div id="products" class="box">
+<div class="section-header">
+<h2><img src="<?php bloginfo('template_url'); ?>/images/ttl_products.gif" width="130" height="23" alt="PRODUCTS" /></h2>
+</div>
+//製品情報を表示
+</div>
+<!--/products -->
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P157　LESSON003－STEP1［4-1］　sgl-products.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php if(have_posts()): while(have_posts()): the_post(); ?>
+<div class="product-left">
+<?php if ( has_post_thumbnail() ): ?>
+<?php the_post_thumbnail('medium'); ?>
+<?php else: ?>
+<img src="<?php bloginfo('template_url') ?>/images/noimage.gif" alt="NO IMAGE" width="300" height="300"/>
+<?php endif; ?>
+</div>
+<div class="product-right">
+<div class="product-title">
+<h3><?php the_title(); ?></h3>
+<p><?php echo post_custom('価格'); ?></p>
+</div>
+<?php the_content(); ?>
+</div>
+<?php endwhile; endif; ?>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P159　LESSON003－STEP1［5-1］　single.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<!--contents -->
+<div id="contents">
+<?php if (in_category('info')||in_category('seminar') ): ?>
+<?php get_template_part( 'sgl' , 'news' ); ?>
+<?php else: ?>
+<?php get_template_part( 'sgl' , 'products' ); ?>
+<?php endif; ?>
+</div>
+<!--/contents -->
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P160　LESSON003－STEP2［1-1］　header.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<div id="header-gra">
+<?php if(is_home()): ?>
+<img src="<?php bloginfo('template_url'); ?>/images/gra_main.jpg" width="960" height="300" alt="" />
+<?php elseif(is_category( array('products','products_a','products_b','products_c','products_d') )||in_category( array('products','products_a','products_b','products_c','products_d') ) ): ?>
+<img src="<?php bloginfo('template_url'); ?>/images/gra_products.jpg" width="960" height="70" alt="" />
+<?php else: ?>
+<img src="<?php bloginfo('template_url'); ?>/images/gra_news.jpg" width="960" height="70" alt="" />
+<?php endif; ?>
+</div>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P161　LESSON003－STEP3［1-1］　style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+/*products-single*/
+.product-left{
+	float: left;
+	width: 300px;
+	margin-top: 15px;
+}
+.product-right {
+	float: right;
+	width: 330px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #999;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P161　LESSON003－STEP3［2-1］　style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+.product-right .product-title {
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #999;
+}
+.product-right .product-title h3 {
+	padding-left: 30px;
+	background: url(images/icon_h3.gif) no-repeat left 2px;
+	font-size: 1.3em;
+}
+.product-right .product-title p {
+	margin-top: 5px;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.product-right h4 {
+	margin-top: 25px;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+	border-bottom: 1px dashed #999;
+}
+.product-right p{
+	margin-bottom: 1em;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P163　LESSON004－STEP1［1-1］　sidebar.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<!--sidebar -->
+<div id="sidebar">
+<div class="side-nav">
+<h2><img src="<?php bloginfo('template_url'); ?>/images/side_ttl_color.gif" width="273" height="30" alt="PRODUCTS COLOR" /></h2>
+</div>
+<ul id="bnr">
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P164　LESSON004－STEP1［2-1］　sidebar.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<div class="side-nav">
+<h2><img src="<?php bloginfo('template_url'); ?>/images/side_ttl_color.gif" width="273" height="30" alt="PRODUCTS COLOR" /></h2>
+<?php wp_tag_cloud(); ?>
+</div>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P164　LESSON004－STEP1［3-1］　sidebar.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<div class="side-nav">
+<h2><img src="<?php bloginfo('template_url'); ?>/images/side_ttl_color.gif" width="273" height="30" alt="PRODUCTS COLOR" /></h2>
+<?php wp_tag_cloud('smallest=1&largest=1&unit=em&format=list'); ?>
+</div>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P165　LESSON004－STEP1［4-1］　style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+#sidebar .side-nav {
+	margin-bottom: 10px;
+	border: 1px solid #b1b1b1;
+	background-color: #fff;
+	font-size: 1.2em;
+}
+
+#sidebar .side-nav ul{
+	padding: 5px 10px 10px;
+}
+
+#sidebar .side-nav ul li {
+	padding: 4px 0 4px 18px;
+	border-bottom: 1px dotted #ccc;
+	background: url(images/icon_circle_blue.gif) no-repeat left center;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P166　LESSON004－STEP2［2-3］　tag.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php if(have_posts()): ?>
+<ul class="item-lists">
+<?php while(have_posts()): the_post(); ?>
+<li>
+<span class="type">
+<?php
+$cats = get_the_category();
+$cats = $cats[0];
+?>
+<img src="<?php bloginfo('template_url'); ?>/images/icon_<?php echo $cats->category_nicename ?>.png" width="20" height="20" alt="" /></span>
+<?php if ( has_post_thumbnail() ): ?>
+<?php the_post_thumbnail(); ?>
+<?php else: ?>
+<img src="<?php bloginfo('template_url') ?>/images/thum_noimage.gif" alt="NO IMAGE" width="110" height="110"/>
+<?php endif; ?>
+<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+<p><?php echo post_custom('価格'); ?></p>
+</li>
+<?php endwhile; ?>
+</ul>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P167　LESSON004－STEP3［1-1］　sgl-products.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<div class="product-left">
+<?php if ( has_post_thumbnail() ): ?>
+<?php the_post_thumbnail('medium'); ?>
+<?php else: ?>
+<img src="<?php bloginfo('template_url') ?>/images/noimage.gif" alt="NO IMAGE" width="300" height="300"/>
+<?php endif; ?>
+<p><?php the_tags(); ?></p>
+</div>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P167　LESSON004－STEP3［2-1］　sgl-products.php（変更行のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<p><?php the_tags('Color：'); ?></p>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P168　LESSON004－STEP3［3-1］　style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+.product-left p{
+	margin-top: 15px;
+}

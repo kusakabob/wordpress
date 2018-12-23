@@ -1,0 +1,535 @@
+■Chapter04　コピー＆ペースト用ソースコード
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P078　LESSON001－STEP1［1-1］　index.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<!--news -->
+<div id="news">
+</div>
+<!--/news -->
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P078　LESSON001－STEP1［2-1］　index.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<!--news -->
+<div id="news" class="box">
+
+<div class="section-header">
+<h2><img src="<?php bloginfo('template_url'); ?>/images/ttl_news.gif" width="80" height="23" alt="NEWS" /></h2>
+<p><a href="<?php bloginfo('url'); ?>/news/">一覧を見る</a></p>
+</div>
+<dl>
+<dt></dt>
+<dd></dd>
+</dl>
+</div>
+<!--/news -->
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P078　LESSON001－STEP1［3-1］　index.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php if(have_posts()): ?>
+<dl>
+<?php while(have_posts()): the_post(); ?>
+<dt><?php the_time('Y/m/d'); ?></dt>
+<dd><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a><?php the_content(); ?></dd>
+<?php endwhile; ?>
+</dl>
+<?php  endif; ?>
+</div>
+<!--/news -->
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P079　LESSON001－STEP1［6-1］　style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+.box {
+	margin-bottom: 15px;
+	padding: 12px 13px;
+	border: 1px solid #b1b1b1;
+	background: #fff;
+}
+.box:after {
+	display: block;
+	clear: both;
+	height: 0;
+	content:"";
+}
+.section-header { 
+	position: relative;
+}
+.section-header h2 {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #c5c5c5;
+}
+.section-header p{ 
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+.section-header p a{
+	padding-left: 15px;
+	background: url(images/icon_arr_black.gif) no-repeat left center;
+	font-size: 90%;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P080　LESSON001－STEP1［7-1］　style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+/*news*/
+#news{ 
+	clear: both;
+}
+#news dl {
+	padding: 0 15px;
+}
+#news dt{ 
+	float: left;
+	clear: both;
+	width: 95px;
+	padding-top: 5px;
+}
+#news dd {
+	float: left;
+	width: 440px;
+	padding-top: 5px;
+	padding-left: 75px;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P082　LESSON001－STEP2［5-1］　style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+/*gra*/
+#header-gra {
+	clear: both;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P082　LESSON001－STEP2［6-1］　style.css（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+#header-nav ul li {
+	position: relative;
+	z-index: 1;
+	float: left;
+}
+
+#header-nav ul li ul.sub-menu {
+	display: none;
+	position: absolute;
+	top: 46px;
+	left: 0;
+}
+
+#header-nav ul li:hover ul.sub-menu {
+	display: block;
+}
+
+#header-nav ul li ul.sub-menu li{
+	float: none;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P083　LESSON001－STEP2［7-1］　style.css（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+#header-nav ul li ul.sub-menu li a {
+	width: 120px;
+	border: 1px solid #fff;
+	border-top: none;
+	padding-left: 38px;
+	background:#3ebdff url(images/icon_arr_subnav.gif) no-repeat 20px center;
+	color: #fff;
+	text-align: left;
+}
+#header-nav ul li ul.sub-menu li a:hover {
+	 background: #8cdfff url(images/icon_arr_subnav.gif) no-repeat 20px center;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P083　LESSON001－STEP2［8-1］　style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+#header-nav ul li.menu-item a:hover, 
+#header-nav ul li.current-menu-item a,
+#header-nav ul li.current-menu-parent a {
+	background: url(images/bg_nav_btn.gif) no-repeat left -46px;
+}
+
+#header-nav ul li {
+	position: relative;
+	z-index: 1;
+	float: left;
+}
+
+#header-nav ul li ul.sub-menu {
+	display: none;
+	position: absolute;
+	top: 46px;
+	left: 0;
+}
+
+#header-nav ul li:hover ul.sub-menu {
+	display: block;
+}
+
+#header-nav ul li ul.sub-menu li {
+	float: none;
+}
+
+#header-nav ul li ul.sub-menu li a {
+	width: 120px;
+	border: 1px solid #fff;
+	border-top: none;
+	padding-left: 38px;
+	background:#3ebdff url(images/icon_arr_subnav.gif) no-repeat 20px center;
+	color: #fff;
+	text-align: left;
+}
+#header-nav ul li ul.sub-menu li a:hover,
+#header-nav ul li ul.sub-menu li.current-menu-item a  {
+	 background: #8cdfff url(images/icon_arr_subnav.gif) no-repeat 20px center;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P084　LESSON001－STEP2［9-1］　style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+#header-nav ul li.menu-item a:hover, 
+#header-nav ul li.current-menu-item a,
+#header-nav ul li.current-menu-parent a,
+#header-nav ul li.current-post-ancestor a {
+	background: url(images/bg_nav_btn.gif) no-repeat left -46px;
+}
+
+#header-nav ul li {
+	position: relative;
+	z-index: 1;
+	float: left;
+}
+
+#header-nav ul li ul.sub-menu {
+	display: none;
+	position: absolute;
+	top: 46px;
+	left: 0;
+}
+
+#header-nav ul li:hover ul.sub-menu {
+	display: block;
+}
+
+#header-nav ul li ul.sub-menu li {
+	float: none;
+}
+
+#header-nav ul li ul.sub-menu li a {
+	width: 120px;
+	border: 1px solid #fff;
+	border-top: none;
+	padding-left: 38px;
+	background:#3ebdff url(images/icon_arr_subnav.gif) no-repeat 20px center;
+	color: #fff;
+	text-align: left;
+}
+#header-nav ul li ul.sub-menu li a:hover,
+#header-nav ul li ul.sub-menu li.current-menu-item a,
+#header-nav ul li ul.sub-menu li.current-menu-parent a  {
+	background: #8cdfff url(images/icon_arr_subnav.gif) no-repeat 20px center;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P086　LESSON001－STEP3［5-1］　index.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<dd><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a><?php the_excerpt(); ?></dd>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P086　LESSON001－STEP3［7-1］　index.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<dd class="info"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a><?php the_excerpt(); ?></dd>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P087　LESSON001－STEP3［8-1］　style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+#news dd.info{
+	background: url(images/icon_info.gif) no-repeat 0 8px;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P091　LESSON001－STEP5［1-1］　index.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php
+$cats = get_the_category();
+$cats = $cats[0];
+?>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P091　LESSON001－STEP5［2-1］　index.php（変更したdd要素のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<dd class="<?php echo $cats->category_nicename; ?>">
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P092　LESSON001－STEP5［4-1］　style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+#news dd.seminar { 
+	background: url(images/icon_semi.gif) no-repeat 0 8px;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P095　LESSON002－STEP2［2-1］　header.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<div id="header-gra">
+<?php if(is_home()): ?>
+<img src="<?php bloginfo('template_url'); ?>/images/gra_main.jpg" width="960" height="300" alt="" />
+<?php else: ?>
+<img src="<?php bloginfo('template_url'); ?>/images/gra_news.jpg" width="960" height="70" alt="" />
+<?php endif; ?>
+</div>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P098　LESSON003－STEP1［2-1］　single.php（変更行のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<dd class="<?php echo $cats->category_nicename;?>"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a><?php the_content(); ?></dd>
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P098　LESSON003－STEP1［3-1］　single.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php if(have_posts()): ?>
+<div class="box-inner">
+<?php while(have_posts()): the_post(); ?>
+<h3><?php the_title(); ?></h3>
+<p class="data">更新日：<?php the_time('Y/m/d'); ?></p>
+<?php the_content(); ?>
+<?php endwhile; ?>
+</div>
+<?php  endif; ?>
+</div>
+<!--/news -->
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P099　LESSON003－STEP2［1-1］　style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+.box-inner {
+	margin: 20px 20px 10px;
+}
+.box-inner h3{
+	margin-bottom: 10px;
+	padding-left: 30px; 
+	padding-bottom: 10px;
+	border-bottom: 1px dotted #ccc;
+	background: url(images/icon_h3.gif) no-repeat left 2px;
+	font-size: 1.3em;
+}
+.box-inner .data { 
+	color: #999;
+	text-align: right;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P100　LESSON003－STEP2［3-1］　style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+.box-inner p{
+	padding-bottom: 1em;
+}
+.box-inner ul{
+	clear: both;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+.box-inner ul li{
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px dashed #ccc;
+}
+.alignleft {
+	display: block;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 1em;
+}
+.aligncenter {
+	display: block;
+	margin:0 auto;
+}
+.alignright {
+	display: block;
+	float: right;
+	margin-left: 15px;
+	margin-bottom: 1em;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P101　LESSON003－STEP2［5-1］　editor-style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+.mceContentBody{
+	max-width: 670px;
+	font-size: 62.5%;
+	font-family: "メイリオ",Meiryo,Osaka,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+	line-height: 1.5;
+}
+.alignleft {
+	display: block;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 1em;
+}
+.aligncenter {
+	display: block;
+	margin:0 auto;
+}
+.alignright {
+	display: block;
+	float: right;
+	margin-left: 15px;
+	margin-bottom: 1em;
+}
+p{
+	font-size: 1.2em;
+	padding-bottom: 1em;
+}
+ul{
+	list-style: none;
+	font-size: 1.2em;
+	clear: both;
+	padding-left: 0;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+ul li{
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px dashed #ccc;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P101　LESSON003－STEP2［6-1］　functions.php（追加箇所のみ）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//エディタ用スタイルシート
+add_editor_style();
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P102　LESSON003－STEP3［1-1］　single.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<?php if(have_posts()): ?>
+<div class="box-inner">
+<?php while(have_posts()): the_post(); ?>
+<?php
+$cats = get_the_category();
+$cats = $cats[0];
+?>
+<h3><span class="ttl-<?php echo $cats->category_nicename;?>"><?php the_title(); ?></span></h3>
+<p class="data">更新日：<?php the_time('Y/m/d'); ?></p>
+<?php the_content(); ?>
+<?php endwhile; ?>
+</div>
+<?php endif; ?>
+</div>
+<!--/news -->
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P102　LESSON003－STEP3［2-1］　style.css
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+.box-inner h3 .ttl-info {
+	display: block;
+	padding-right: 55px;
+	background: url(images/icon_info.gif) no-repeat right bottom;
+}
+.box-inner h3 .ttl-seminar {
+	display: block;
+	padding-right: 55px;
+	background: url(images/icon_semi.gif) no-repeat right bottom;
+}
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P103　LESSON003－STEP4［1-1］　single.php
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+</div>
+<!--/news -->
+<div class="box">
+<span class="fLeft"><?php previous_post_link('&laquo; %link', '前の情報を見る', TRUE); ?></span>
+<span class="fRight"><?php next_post_link('%link &raquo;', '次の情報を見る', TRUE) ?></span>
+</div>
+</div>
+<!--/contents -->
+
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+▼P104　LESSON003－STEP4［2-1］　single.php（<!--contents-->部分全体※P103［1-1］を追加した状態と同じです）
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+<!--contents-->
+<div id="contents">
+<!--news -->
+<div id="news" class="box">
+<div class="section-header">
+<h2><img src="<?php bloginfo('template_url'); ?>/images/ttl_news.gif" width="80" height="23" alt="NEWS" /></h2>
+</div>
+<?php if(have_posts()): ?>
+<div class="box-inner">
+<?php while(have_posts()): the_post(); ?>
+<?php
+$cats = get_the_category();
+$cats = $cats[0];
+?>
+<h3><span class="ttl-<?php echo $cats->category_nicename;?>"><?php the_title(); ?></span></h3>
+<p class="data">更新日：<?php the_time('Y/m/d'); ?></p>
+<?php the_content(); ?>
+<?php endwhile; ?>
+</div>
+<?php  endif; ?>
+</div>
+<!--/news -->
+
+<div class="box">
+<span class="fLeft"><?php previous_post_link('&laquo; %link', '前の情報を見る', TRUE); ?></span>
+<span class="fRight"><?php next_post_link('%link &raquo;', '次の情報を見る', TRUE) ?></span>
+</div>
+</div>
+<!--/contents -->
+

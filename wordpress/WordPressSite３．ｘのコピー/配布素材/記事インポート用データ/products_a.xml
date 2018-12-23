@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.1/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.1/"
+>
+
+<channel>
+<wp:wxr_version>1.1</wp:wxr_version>
+	<item>
+		<title>プロダクト製品A003</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+<h4>商品アイテム詳細</h4>
+<ul>
+<li>アイテムタイプ：テキスト</li>
+<li>アイテムサイズ：S/M/L</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-11 18:13:09</wp:post_date>
+		<wp:post_date_gmt>2012-01-11 09:13:09</wp:post_date_gmt>
+		<wp:post_name>a003</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="green"><![CDATA[緑色の製品]]></category>
+		<category domain="post_tag" nicename="black"><![CDATA[黒色の製品]]></category>
+		<category domain="category" nicename="products_a"><![CDATA[製品A一覧]]></category>
+		<wp:postmeta>
+			<wp:meta_key>価格</wp:meta_key>
+			<wp:meta_value><![CDATA[￥3,000]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+	</item>
+	<item>
+		<title>プロダクト製品A004</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+<h4>商品アイテム詳細</h4>
+<ul>
+<li>アイテムタイプ：テキスト</li>
+<li>アイテムサイズ：S/M/L</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-12 18:13:09</wp:post_date>
+		<wp:post_date_gmt>2012-01-12 09:13:09</wp:post_date_gmt>
+		<wp:post_name>a004</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="red"><![CDATA[赤色の製品]]></category>
+		<category domain="category" nicename="products_a"><![CDATA[製品A一覧]]></category>
+		<wp:postmeta>
+			<wp:meta_key>価格</wp:meta_key>
+			<wp:meta_value><![CDATA[￥2,500]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+	</item>
+	<item>
+		<title>プロダクト製品A005</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+<h4>商品アイテム詳細</h4>
+<ul>
+<li>アイテムタイプ：テキスト</li>
+<li>アイテムサイズ：S/M/L</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-14 18:13:09</wp:post_date>
+		<wp:post_date_gmt>2012-01-14 09:13:09</wp:post_date_gmt>
+		<wp:post_name>a005</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="blue"><![CDATA[青色の製品]]></category>
+		<category domain="post_tag" nicename="red"><![CDATA[赤色の製品]]></category>
+		<category domain="category" nicename="products_a"><![CDATA[製品A一覧]]></category>
+		<wp:postmeta>
+			<wp:meta_key>価格</wp:meta_key>
+			<wp:meta_value><![CDATA[￥3,000]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+	</item>
+	<item>
+		<title>プロダクト製品A006</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+<h4>商品アイテム詳細</h4>
+<ul>
+<li>アイテムタイプ：テキスト</li>
+<li>アイテムサイズ：S/M/L</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-15 18:13:09</wp:post_date>
+		<wp:post_date_gmt>2012-01-15 09:13:09</wp:post_date_gmt>
+		<wp:post_name>a006</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="white"><![CDATA[白色の製品]]></category>
+		<category domain="category" nicename="products_a"><![CDATA[製品A一覧]]></category>
+		<wp:postmeta>
+			<wp:meta_key>価格</wp:meta_key>
+			<wp:meta_value><![CDATA[￥7,200]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+	</item>
+	<item>
+		<title>プロダクト製品A007</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+<h4>商品アイテム詳細</h4>
+<ul>
+<li>アイテムタイプ：テキスト</li>
+<li>アイテムサイズ：S/M/L</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-16 18:13:09</wp:post_date>
+		<wp:post_date_gmt>2012-01-16 09:13:09</wp:post_date_gmt>
+		<wp:post_name>a007</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="black"><![CDATA[黒色の製品]]></category>
+		<category domain="category" nicename="products_a"><![CDATA[製品A一覧]]></category>
+		<wp:postmeta>
+			<wp:meta_key>価格</wp:meta_key>
+			<wp:meta_value><![CDATA[￥980]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+	</item>
+	<item>
+		<title>プロダクト製品A008</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+<h4>商品アイテム詳細</h4>
+<ul>
+<li>アイテムタイプ：テキスト</li>
+<li>アイテムサイズ：S/M/L</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-17 18:13:09</wp:post_date>
+		<wp:post_date_gmt>2012-01-17 09:13:09</wp:post_date_gmt>
+		<wp:post_name>a008</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="green"><![CDATA[緑色の製品]]></category>
+		<category domain="category" nicename="products_a"><![CDATA[製品A一覧]]></category>
+		<wp:postmeta>
+			<wp:meta_key>価格</wp:meta_key>
+			<wp:meta_value><![CDATA[￥5,800]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+	</item>
+	<item>
+		<title>プロダクト製品A009</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+<h4>商品アイテム詳細</h4>
+<ul>
+<li>アイテムタイプ：テキスト</li>
+<li>アイテムサイズ：S/M/L</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-18 18:13:09</wp:post_date>
+		<wp:post_date_gmt>2012-01-18 09:13:09</wp:post_date_gmt>
+		<wp:post_name>a009</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="green"><![CDATA[緑色の製品]]></category>
+		<category domain="post_tag" nicename="white"><![CDATA[白色の製品]]></category>
+		<category domain="category" nicename="products_a"><![CDATA[製品A一覧]]></category>
+		<wp:postmeta>
+			<wp:meta_key>価格</wp:meta_key>
+			<wp:meta_value><![CDATA[￥1,200]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+	</item>
+	<item>
+		<title>プロダクト製品A010</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+<h4>商品アイテム詳細</h4>
+<ul>
+<li>アイテムタイプ：テキスト</li>
+<li>アイテムサイズ：S/M/L</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-19 18:13:09</wp:post_date>
+		<wp:post_date_gmt>2012-01-19 09:13:09</wp:post_date_gmt>
+		<wp:post_name>a010</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="white"><![CDATA[白色の製品]]></category>
+		<category domain="category" nicename="products_a"><![CDATA[製品A一覧]]></category>
+		<wp:postmeta>
+			<wp:meta_key>価格</wp:meta_key>
+			<wp:meta_value><![CDATA[￥6,500]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+	</item>
+	<item>
+		<title>プロダクト製品A011</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+<h4>商品アイテム詳細</h4>
+<ul>
+<li>アイテムタイプ：テキスト</li>
+<li>アイテムサイズ：S/M/L</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-20 18:13:09</wp:post_date>
+		<wp:post_date_gmt>2012-01-20 09:13:09</wp:post_date_gmt>
+		<wp:post_name>a011</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="red"><![CDATA[赤色の製品]]></category>
+		<category domain="category" nicename="products_a"><![CDATA[製品A一覧]]></category>
+		<wp:postmeta>
+			<wp:meta_key>価格</wp:meta_key>
+			<wp:meta_value><![CDATA[￥2,400]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+	</item>
+	<item>
+		<title>プロダクト製品A012</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+<h4>商品アイテム詳細</h4>
+<ul>
+<li>アイテムタイプ：テキスト</li>
+<li>アイテムサイズ：S/M/L</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-21 18:13:09</wp:post_date>
+		<wp:post_date_gmt>2012-01-21 09:13:09</wp:post_date_gmt>
+		<wp:post_name>a012</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="green"><![CDATA[緑色の製品]]></category>
+		<category domain="category" nicename="products_a"><![CDATA[製品A一覧]]></category>
+		<wp:postmeta>
+			<wp:meta_key>価格</wp:meta_key>
+			<wp:meta_value><![CDATA[￥19,500]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+	</item>
+	<item>
+		<title>プロダクト製品A013</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+<h4>商品アイテム詳細</h4>
+<ul>
+<li>アイテムタイプ：テキスト</li>
+<li>アイテムサイズ：S/M/L</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-22 18:13:09</wp:post_date>
+		<wp:post_date_gmt>2012-01-22 09:13:09</wp:post_date_gmt>
+		<wp:post_name>a013</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="blue"><![CDATA[青色の製品]]></category>
+		<category domain="category" nicename="products_a"><![CDATA[製品A一覧]]></category>
+		<wp:postmeta>
+			<wp:meta_key>価格</wp:meta_key>
+			<wp:meta_value><![CDATA[￥38,200]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+	</item>
+	<item>
+		<title>プロダクト製品A014</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+<h4>商品アイテム詳細</h4>
+<ul>
+<li>アイテムタイプ：テキスト</li>
+<li>アイテムサイズ：S/M/L</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-23 18:13:09</wp:post_date>
+		<wp:post_date_gmt>2012-01-23 09:13:09</wp:post_date_gmt>
+		<wp:post_name>a014</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="white"><![CDATA[白色の製品]]></category>
+		<category domain="post_tag" nicename="blue"><![CDATA[青色の製品]]></category>
+		<category domain="post_tag" nicename="black"><![CDATA[黒色の製品]]></category>
+		<category domain="category" nicename="products_a"><![CDATA[製品A一覧]]></category>
+		<wp:postmeta>
+			<wp:meta_key>価格</wp:meta_key>
+			<wp:meta_value><![CDATA[￥680]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+	</item>
+	<item>
+		<title>プロダクト製品A015</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+<h4>商品アイテム詳細</h4>
+<ul>
+<li>アイテムタイプ：テキスト</li>
+<li>アイテムサイズ：S/M/L</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-24 18:13:09</wp:post_date>
+		<wp:post_date_gmt>2012-01-24 09:13:09</wp:post_date_gmt>
+		<wp:post_name>a015</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="red"><![CDATA[赤色の製品]]></category>
+		<category domain="category" nicename="products_a"><![CDATA[製品A一覧]]></category>
+		<wp:postmeta>
+			<wp:meta_key>価格</wp:meta_key>
+			<wp:meta_value><![CDATA[￥55,200]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+	</item>
+	<item>
+		<title>プロダクト製品A016</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+<h4>商品アイテム詳細</h4>
+<ul>
+<li>アイテムタイプ：テキスト</li>
+<li>アイテムサイズ：S/M/L</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-25 18:13:09</wp:post_date>
+		<wp:post_date_gmt>2012-01-25 09:13:09</wp:post_date_gmt>
+		<wp:post_name>a016</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="green"><![CDATA[緑色の製品]]></category>
+		<category domain="post_tag" nicename="white"><![CDATA[白色の製品]]></category>
+		<category domain="category" nicename="products_a"><![CDATA[製品A一覧]]></category>
+		<wp:postmeta>
+			<wp:meta_key>価格</wp:meta_key>
+			<wp:meta_value><![CDATA[￥500]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+	</item>
+	<item>
+		<title>プロダクト製品A017</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+<h4>商品アイテム詳細</h4>
+<ul>
+<li>アイテムタイプ：テキスト</li>
+<li>アイテムサイズ：S/M/L</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-26 18:13:09</wp:post_date>
+		<wp:post_date_gmt>2012-01-26 09:13:09</wp:post_date_gmt>
+		<wp:post_name>a017</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="white"><![CDATA[白色の製品]]></category>
+		<category domain="category" nicename="products_a"><![CDATA[製品A一覧]]></category>
+		<wp:postmeta>
+			<wp:meta_key>価格</wp:meta_key>
+			<wp:meta_value><![CDATA[￥5,800]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+	</item>
+	<item>
+		<title>プロダクト製品A018</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+<h4>商品アイテム詳細</h4>
+<ul>
+<li>アイテムタイプ：テキスト</li>
+<li>アイテムサイズ：S/M/L</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-27 18:13:09</wp:post_date>
+		<wp:post_date_gmt>2012-01-27 09:13:09</wp:post_date_gmt>
+		<wp:post_name>a018</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="blue"><![CDATA[青色の製品]]></category>
+		<category domain="post_tag" nicename="white"><![CDATA[白色の製品]]></category>
+		<category domain="category" nicename="products_a"><![CDATA[製品A一覧]]></category>
+		<wp:postmeta>
+			<wp:meta_key>価格</wp:meta_key>
+			<wp:meta_value><![CDATA[￥38,500]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+	</item>
+	<item>
+		<title>プロダクト製品A019</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+<h4>商品アイテム詳細</h4>
+<ul>
+<li>アイテムタイプ：テキスト</li>
+<li>アイテムサイズ：S/M/L</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-28 18:13:09</wp:post_date>
+		<wp:post_date_gmt>2012-01-28 09:13:09</wp:post_date_gmt>
+		<wp:post_name>a019</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="black"><![CDATA[黒色の製品]]></category>
+		<category domain="category" nicename="products_a"><![CDATA[製品A一覧]]></category>
+		<wp:postmeta>
+			<wp:meta_key>価格</wp:meta_key>
+			<wp:meta_value><![CDATA[￥3,800]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+	</item>
+	<item>
+		<title>プロダクト製品A020</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+<h4>商品アイテム詳細</h4>
+<ul>
+<li>アイテムタイプ：テキスト</li>
+<li>アイテムサイズ：S/M/L</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-29 18:13:09</wp:post_date>
+		<wp:post_date_gmt>2012-01-29 09:13:09</wp:post_date_gmt>
+		<wp:post_name>a020</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="white"><![CDATA[白色の製品]]></category>
+		<category domain="post_tag" nicename="green"><![CDATA[緑色の製品]]></category>
+		<category domain="category" nicename="products_a"><![CDATA[製品A一覧]]></category>
+		<wp:postmeta>
+			<wp:meta_key>価格</wp:meta_key>
+			<wp:meta_value><![CDATA[￥7,300]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+	</item>
+	<item>
+		<title>プロダクト製品A021</title>
+		<dc:creator>admin</dc:creator>
+		<content:encoded><![CDATA[サンプル投稿テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+
+<h4>商品アイテム詳細</h4>
+<ul>
+<li>アイテムタイプ：テキスト</li>
+<li>アイテムサイズ：S/M/L</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+
+		<wp:post_date>2012-01-30 18:13:09</wp:post_date>
+		<wp:post_date_gmt>2012-01-30 09:13:09</wp:post_date_gmt>
+		<wp:post_name>a021</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_type>post</wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="red"><![CDATA[赤色の製品]]></category>
+		<category domain="category" nicename="products_a"><![CDATA[製品A一覧]]></category>
+		<wp:postmeta>
+			<wp:meta_key>価格</wp:meta_key>
+			<wp:meta_value><![CDATA[￥11,800]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+	</item>
+</channel>
+</rss>
