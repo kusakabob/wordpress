@@ -20,8 +20,8 @@ Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
     <div id="header-top">
     <div class = "fLeft">
-		<h1><a href="<?php echo home_url('/'); ?>"><img src="<?php bloginfo('template_url'); ?>/images/blockbase_logo_2_.png"
-        width="50" height="50" alt="<?php bloginfo('name'); ?>" /></a></h1>
+		<h1><a href="<?php echo home_url('/'); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.gif"
+        width="184" height="20" alt="<?php bloginfo('name'); ?>" /></a></h1>
         <p><?php bloginfo('description'); ?></p>
     </div>
 
@@ -30,7 +30,7 @@ Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
             <li><a href="<?php bloginfo('url'); ?>/sitemap/"
             class="sitemap">サイトマップ</a></li>
             <li><a href="<?php bloginfo('rss2_url'); ?>"
-            class="rss">RSS FEED</li>
+            class="rss">RSS FEED</a></li> 
         </ul>
     </div>
     </div>
@@ -40,7 +40,12 @@ Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 </div>
 
     <div id = "header-gra">
-    <img src="<?php bloginfo('template_url'); ?>/images/b2_room.png" width=100% height="300" alt="" />
+    <?php if(is_home()): ?>
+    <img src="<?php bloginfo('template_url'); ?>/images/gra_main.jpg" width=960 height="300" alt="" />
+    <?php else: ?>
+    <img src="<?php bloginfo('template_url'); ?>/images/gra_news.jpg" width=960 height="70" alt="" />
+    <?php endif ?>
+
 </div>
 
     </div>
