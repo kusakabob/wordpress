@@ -175,6 +175,14 @@ background: url(images/bg_nav_btn.gif) no-repeat left -46px
     clear:both;
 }
 
+.breadcrumbs{
+    display:block;
+    float:right;    
+    width:960px;
+    margin:0 auto;
+    text-align:right;
+}
+
 
 #container {
     width: 960px;
@@ -340,4 +348,56 @@ background: url(images/bg_nav_btn.gif) no-repeat left -46px
 
 #news dd.seminar {
     background: url(images/icon_semi.gif) no-repeat 0 8px;
+}
+
+/* products */
+#products ul.item-lists{
+    margin-left:-24px;
+    padding-top:10px;
+}
+
+#products ul.item-lists li{
+    position:relative;
+    float:left;
+    width:110px;
+    margin-left:50px;
+}
+
+#products ul.item-lists li span.type{
+    position:absolute;
+    top:0;
+    right:0;
+}
+
+#products ul.item-lists li h3{
+    padding-top: 5px;
+    padding-bottom: 3px;
+    line-height: 1.2;
+}
+
+#products ul.item-lists li p{
+    padding-bottom:8px;
+}
+
+/*PageNavi*/
+.wp-pagenavi{
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+.wp-pagenavi a,
+.pages,
+.current{
+    margin-right: 4px;
+    padding:3px 6px;
+    border: 1px solid #ccc;
+    background:#fff;
+    font-weight:bold;
+    text-decoration:none;
+    text-align:center;
+}
+
+.wp-pagenavi a:hover,
+.current{
+    color:#fff;
+    background: #3793ce;
 }

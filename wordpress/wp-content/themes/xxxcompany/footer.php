@@ -5,5 +5,6 @@
         ALLRIGHTS RESERVED</p>
     </div>
     <!-- /footer -->
+    <?php wp_footer(); ?>
 	</body>
 </html>

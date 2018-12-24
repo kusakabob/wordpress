@@ -12,6 +12,8 @@ Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
     <link rel="stylesheet" type="text/css"
     href="<?php bloginfo('stylesheet_url'); ?>" />
+
+    <?php wp_head(); ?>
 	</head>
 	<body>
     <!-- header -->
@@ -51,3 +53,4 @@ Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
     </div>
     </div>
     <!-- /header -->
+    <?php dynamic_sidebar(); ?>
