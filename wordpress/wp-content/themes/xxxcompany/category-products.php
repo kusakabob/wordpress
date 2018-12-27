@@ -3,6 +3,26 @@
 <div id="container">
 <div id="contents">
 
+<div id="original-products" class="box">
+    <div class="section-header">
+        <h2><img src="<?php bloginfo('template_url'); ?>/images/ttl_original_products.gif"
+        width="225" height="23"
+        alt="ORIGINAL PRODUCTS" /></h2>
+</div>
+
+<img src = "<?php bloginfo('template_url'); ?>/images/item_products.jpg" width="283" height="222"
+alt="" class="items-img" />
+
+<div class="items-detail">
+<h3><img src="<?php bloginfo('template_url'); ?>/images/ttl_confidence.gif" width="209" height="27"
+alt="xxx製の確かな自信"/></h3>
+<p><img src="<?php bloginfo('template_url'); ?>/images/products_text.gif" width="229" height="45"
+alt=""/></p>
+<p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+<p>text text texxt text</p>
+</div>
+
+</div>
 
 <!-- products -->
 <div id="products" class="box">
@@ -12,14 +32,18 @@
     
 </div>
 
-<?php $page = get_query_var('paged'); ?>
-<?//php query_posts('category_name=products_a&posts_per_page=15&paged='.$page); ?>
 
+<?php 
+$catId = get_query_var('cat');
+$children=get_terms('category',array('child_of' => $catId, 'fields' => 'ids'));
+foreach($children as $child) :
+    query_posts('cat='.$child.'&posts_per_page=4');
+ ?>
 <?php if(have_posts()): ?>
 <ul class="item-lists">
 <?php while(have_posts()): the_post(); ?>
     <li>
-    <span class="type">
+        <span class="type">
             <?php
             $cats=get_the_category();
             $cats=$cats[0];
@@ -43,14 +67,12 @@
     </li>
 <?php endwhile; ?>
 </ul>
-<?php endif;  ?>
-<?php wp_reset_query(); ?>
-
+<?php the_category(); ?>
+<?php endif; wp_reset_query() ?>
+<?php endforeach; ?>
 
 </div>
 <!-- /products -->
-<?php if(function_exists('wp_pagenavi')) {
-    wp_pagenavi(); } ?>
 
 </div>
 

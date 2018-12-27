@@ -12,20 +12,15 @@
     
 </div>
 
-<?php $page = get_query_var('paged'); ?>
-<?//php query_posts('category_name=products_a&posts_per_page=15&paged='.$page); ?>
+
 
 <?php if(have_posts()): ?>
 <ul class="item-lists">
 <?php while(have_posts()): the_post(); ?>
     <li>
-    <span class="type">
-            <?php
-            $cats=get_the_category();
-            $cats=$cats[0];
-            ?>
-            <img src="<?php bloginfo('template_url'); ?>/images/icon_<?php
-            echo $cats->category_nicename ?>.png"
+        <span class="type">
+            <img src="<?php bloginfo('template_url'); ?>/images/icon_products_d.png"
+            
             width="20" height="20" alt="" />
             
 </span>
@@ -44,13 +39,13 @@
 <?php endwhile; ?>
 </ul>
 <?php endif;  ?>
-<?php wp_reset_query(); ?>
-
 
 </div>
 <!-- /products -->
+
 <?php if(function_exists('wp_pagenavi')) {
     wp_pagenavi(); } ?>
+
 
 </div>
 

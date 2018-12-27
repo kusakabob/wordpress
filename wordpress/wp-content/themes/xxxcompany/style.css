@@ -18,7 +18,7 @@ img {
 }
 
 body {
-    /* background: url(images/bg_body.png) repeat 0 0; */
+    background: url(images/bg_body.png) repeat 0 0;
     font-size: 62.5%;
     font-family: "メイリオ",Meiryo,Osaka,"ヒラギノ角ゴ Pro W3",
     "Hiragino Kaku Gothic PPro","MS Pゴシック", "MSPGothic",sans-serif;
@@ -44,6 +44,34 @@ ul,ol {
 
 .fRight{
     float:right;
+}
+
+table{
+    width: 100%;
+    margin-top:12px;
+    border:1px solid #ccc;
+    border-collapse: collapse;
+    border-spacing: 0;
+    line-height:1.5;
+}
+
+th{
+    width:20%;
+    padding:10px;
+    border:1px solid #ccc;
+    background:#55aeff;
+    color:#fff;
+    font-weight:bold;
+    text-align:left;
+    vertical-align:middle;
+    white-space:nowrap;
+}
+
+td{
+    width:80%;
+    padding:10px;
+    border:1px solid #ccc;
+    vertical-align:middle;
 }
 
 #header {
@@ -301,7 +329,29 @@ background: url(images/bg_nav_btn.gif) no-repeat left -46px
     margin-bottom:15px;
 }
 
+#sidebar .side-nav{
+    margin-bottom:10px;
+    border:1px solid #b1b1b1;
+    background-color:#fff;
+    font-size:1.2em;
+}
+
+#sidebar .side-nav ul{
+    padding:5px 10px 10px;
+}
+
+#sidebar .side-nav ul li{
+    padding:4px 0 4px 18px;
+    border-bottom: 1px dotted #ccc;
+    background: url(images/icon_circle_blue.gif) no-repeat left center;
+}
+
+#sidebar #bnr {
+    padding:0;
+}
+
 #sidebar #bnr li{
+    
     margin-bottom: 5px;
 }
 
@@ -377,6 +427,96 @@ background: url(images/bg_nav_btn.gif) no-repeat left -46px
 
 #products ul.item-lists li p{
     padding-bottom:8px;
+}
+
+/* original-products */
+#original-products{
+    margin-bottom: 15px;
+}
+
+#original-products .items-img{
+float:left;
+margin-top:10px;
+margin-right:20px;
+border:10px solid #e8edf0;
+}
+
+#original-products .items-detail h3 {
+    padding-top:15px;
+    padding-bottom:10px;
+}
+
+#original-products .items-detail p{
+    margin-bottom: 1em;
+}
+
+/* products-single */
+.product-left{
+    float:left;
+    width:300px;
+    margin-top:15px
+}
+
+.product-left p{
+    margin-top:15px;
+}
+
+.product-right{
+    float: right;
+    width:330px;
+    margin-top:15px;
+    margin-bottom:10px;
+    padding-bottom:15px;
+    border-bottom: 1px solid #999;
+}
+
+.product-right .product-title{
+    margin-bottom:15px;
+    padding-bottom:10px;
+    border-bottom:1px solid #999;
+}
+
+.product-right .product-title h3{
+    padding-left:30px;
+    background:url(images/icon_h3.gif) no-repeat left 2px;
+    font-size: 1.3em;
+}
+
+.product-right .product-title p{
+    margin-top:5px;
+    font-size:1.2em;
+    font-weight:bold;
+}
+
+.product-right h4{
+    margin-top:25px;
+    margin-bottom: 10px;
+    padding-bottom:5px;
+    border-bottom:1px dashed #999;
+}
+.product-right p{
+    margin-bottom:1em;
+}
+
+
+#products .post-categories {
+    clear:both;
+    margin-left:0;
+    text-align:right;
+}
+
+#products .post-categories li{
+    width:100%;
+    margin-left:0;
+    margin-bottom:5px;
+    padding-bottom:5px;
+    border-bottom:1px dashed #d1d1d1;
+}
+
+#products .post-categories li a{
+    padding-left: 15px;
+    padding-right:5px;
+    background:url(images/icon_arr_black.gif) no-repeat left center;
 }
 
 /*PageNavi*/

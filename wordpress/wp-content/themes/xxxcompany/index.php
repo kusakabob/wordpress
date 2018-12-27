@@ -58,7 +58,7 @@
         <?php if (has_post_thumbnail()): ?>
         <?php the_post_thumbnail(); ?>
         <?php else: ?>
-        <img src="<?php bloginfo('template_url') ?>/images?thum_noimage.gif" alt="NO IMAGE" width=110
+        <img src="<?php bloginfo('template_url') ?>/images/thum_noimage.gif" alt="NO IMAGE" width=110
         height="110" />
         <?php endif; ?>
 
